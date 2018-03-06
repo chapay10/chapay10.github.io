@@ -14,12 +14,10 @@
 }, '5.60');
   function box(){
   	VK.callMethod("showSettingsBox", 8214);
-  }
-   window.onload = function() {
-    VK.init();
   };
 </script>
- <button  onclick="box()">Тест</button>
+ <button  onclick="VK.init()">Тест1</button>
+  <button  onclick="box()">Тест</button>
 </body>
 </html>
 
