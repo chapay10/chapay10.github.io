@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+<script src="https://vk.com/js/api/mobile_sdk.js"  type="text/javascript">
 </head>
 <body>
 <script type="text/javascript"> 
@@ -12,8 +12,9 @@
      // API initialization failed 
      // Can reload page here 
 }, '5.60'); 
+  
   function box(){
-  	VK.callMethod("showInviteBox");
+  	VK.callMethod("showSettingsBox", 8214);
   }
    window.onload = function() {
     VK.init();
