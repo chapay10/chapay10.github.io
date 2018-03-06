@@ -26,16 +26,7 @@
   function ShareBox_im(){
   	VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "wall");
   };
-   function OrderBox(){
-  	VK.callMethod("showOrderBox", {"type":"item","item":"qwe1"});
-  };
-   function LeaderboardBox(){
-  	VK.callMethod("showLeaderboardBox", document.getElementById("user_id").value);
-  };
-  VK.onSettingsCancel = function () {
-    alert("cances");
-  };
-</script>
+ </script>
  <button  onclick="InviteBox()">showInviteBox</button><br>
  <hr>
  <button  onclick="SettingsBox()">showSettingsBox</button> 
@@ -53,9 +44,5 @@
 <hr>
  <button  onclick="ShareBox_im()">showShareBox - im</button>
 <input type="text" value="Test_Message" id="share_im_message"></input>
-<hr>
- <button  onclick="LeaderboardBox()">showLeaderboardBox</button>
-user_id:
-<input type="text" value="3384" id="user_id"></input>
 </body>
 </html>
