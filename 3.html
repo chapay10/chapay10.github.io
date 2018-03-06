@@ -18,7 +18,7 @@
   	VK.callMethod("showSettingsBox", 0);
   };
   function RequestBox(){
-  	VK.callMethod("showRequestBox", 1, "Test_Message", "");
+  	VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
   function ShareBox(){
   	VK.callMethod("showShareBox", 0);
@@ -30,8 +30,16 @@
   	VK.callMethod("showLeaderboardBox", 0);
   };
 </script>
- <button  onclick="InviteBox()">showInviteBox()</button>
+ <button  onclick="InviteBox()">showInviteBox()</button><br>
+ <hr>
  <button  onclick="SettingsBox()">showSettingsBox()</button> 
+ <hr>
  <button  onclick="RequestBox()">showRequestBox</button>
+ id:
+ <input type="text" value="1" id="request_id"></input>
+ request_message:
+ <input type="text" value="Test_Message" id="request_message"></input>
+ request_key:
+ <input type="text" value="Test_request_key" id="request_key"></input>
 </body>
 </html>
