@@ -15,7 +15,7 @@
   	VK.callMethod("showInviteBox");
   };
   function SettingsBox(){
-   VK.callMethod("showSettingsBox", 3295)
+   VK.callMethod("showSettingsBox", document.getElementById("scope").value)
    };
   function RequestBox(){
   	VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
@@ -30,6 +30,8 @@
  <button  onclick="InviteBox()">showInviteBox</button><br>
  <hr>
  <button  onclick="SettingsBox()">showSettingsBox</button> 
+ scope:
+ <input type="text" value="3295" id="scope"></input>
  <hr>
  <button  onclick="RequestBox()">showRequestBox</button>
  id:
