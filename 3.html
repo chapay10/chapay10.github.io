@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://vk.com/js/api/mobile_sdk.js"  type="text/javascript"></script>
+</head>
+<body>
+<script type="text/javascript"> 
+  VK.init(function() { 
+      // API initialization succeeded 
+      // Your code here 
+  }, function() { 
+     // API initialization failed 
+     // Can reload page here 
+}, '5.60'); 
+  function box(){
+  	VK.callMethod("showSettingsBox", {"settings":8})
+  }
+</script>
+ <button  onclick="box()">Тест</button>
+</body>
+</html>
+
+
+
