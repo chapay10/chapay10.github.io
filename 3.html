@@ -30,7 +30,7 @@
   	VK.callMethod("showOrderBox", {"type":"item","item":"qwe1"});
   };
    function LeaderboardBox(){
-  	VK.callMethod("showLeaderboardBox", 0);
+  	VK.callMethod("showLeaderboardBox", document.getElementById("user_id").value);
   };
   VK.onSettingsCancel = function () {
     alert("cances");
@@ -55,6 +55,7 @@
 <input type="text" value="Test_Message" id="share_im_message"></input>
 <hr>
  <button  onclick="LeaderboardBox()">showLeaderboardBox</button>
-
+user_id:
+<input type="text" value="3384" id="user_id"></input>
 </body>
 </html>
