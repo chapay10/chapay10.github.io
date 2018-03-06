@@ -29,16 +29,16 @@
    function OrderBox(){
   	VK.callMethod("showOrderBox", {"type":"item","item":"qwe1"});
   };
-   function showLeaderboardBox(){
+   function LeaderboardBox(){
   	VK.callMethod("showLeaderboardBox", 0);
   };
   VK.onSettingsCancel = function () {
     alert("cances");
   };
 </script>
- <button  onclick="InviteBox()">showInviteBox()</button><br>
+ <button  onclick="InviteBox()">showInviteBox</button><br>
  <hr>
- <button  onclick="SettingsBox()">showSettingsBox()</button> 
+ <button  onclick="SettingsBox()">showSettingsBox</button> 
  <hr>
  <button  onclick="RequestBox()">showRequestBox</button>
  id:
@@ -54,7 +54,7 @@
  <button  onclick="ShareBox_im()">showShareBox - im</button>
 <input type="text" value="Test_Message" id="share_im_message"></input>
 <hr>
- <button  onclick="OrderBox()">showOrderBox_qwe</button>
+ <button  onclick="LeaderboardBox()">showLeaderboardBox</button>
 
 </body>
 </html>
