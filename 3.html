@@ -15,9 +15,8 @@
   	VK.callMethod("showInviteBox");
   };
   function SettingsBox(){
-    var state=VK.callMethod("showSettingsBox", 0)
-  	alert(state);
-  };
+   VK.callMethod("showSettingsBox", 0)
+   };
   function RequestBox(){
   	VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
@@ -29,6 +28,9 @@
   };
    function showLeaderboardBox(){
   	VK.callMethod("showLeaderboardBox", 0);
+  };
+  onInviteBoxDone = function (status, data) {
+    alert(status);
   };
 </script>
  <button  onclick="InviteBox()">showInviteBox()</button><br>
