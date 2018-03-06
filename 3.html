@@ -21,7 +21,7 @@
   	VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
   function ShareBox(){
-  	VK.callMethod("showShareBox", 0);
+  	VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, "", "wall");
   };
    function OrderBox(){
   	VK.callMethod("showOrderBox", 0);
@@ -41,5 +41,8 @@
  <input type="text" value="Test_Message" id="request_message"></input>
  request_key:
  <input type="text" value="Test_request_key" id="request_key"></input>
+ <hr>
+ <button  onclick="ShareBox()">showShareBox - wall</button>
+<input type="text" value="Test_Message" id="share_wall_message"></input>
 </body>
 </html>
