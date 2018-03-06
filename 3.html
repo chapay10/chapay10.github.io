@@ -15,7 +15,8 @@
   	VK.callMethod("showInviteBox");
   };
   function SettingsBox(){
-  	alert(VK.callMethod("showSettingsBox", 0));
+    var state=VK.callMethod("showSettingsBox", 0)
+  	alert(state);
   };
   function RequestBox(){
   	VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
