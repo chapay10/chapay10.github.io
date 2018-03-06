@@ -17,8 +17,21 @@
   function SettingsBox(){
   	VK.callMethod("showSettingsBox", 0);
   };
+  function RequestBox(){
+  	VK.callMethod("showRequestBox", {"user_id":1, "message": "Test_Message"});
+  };
+  function ShareBox(){
+  	VK.callMethod("showShareBox", 0);
+  };
+   function OrderBox(){
+  	VK.callMethod("showOrderBox", 0);
+  };
+   function showLeaderboardBox(){
+  	VK.callMethod("showLeaderboardBox", 0);
+  };
 </script>
  <button  onclick="InviteBox()">showInviteBox()</button>
- <button  onclick="SettingsBox()">Тест</button>
+ <button  onclick="SettingsBox()">showSettingsBox()</button> 
+ <button  onclick="RequestBox()">showRequestBox</button>
 </body>
 </html>
