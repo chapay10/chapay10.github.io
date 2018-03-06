@@ -13,9 +13,12 @@
 }, '5.60');
   function InviteBox(){
   	VK.callMethod("showInviteBox");
+  }
+  function SettingsBox(){
+  	VK.callMethod("showSettingsBox", 0);
   };
 </script>
- <button  onclick="InviteBox">showInviteBox()</button>
- <button  onclick="box()">Тест</button>
+ <button  onclick="InviteBox()">showInviteBox()</button>
+ <button  onclick="SettingsBox()">Тест</button>
 </body>
 </html>
