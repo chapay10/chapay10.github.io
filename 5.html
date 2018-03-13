@@ -10,10 +10,9 @@
     // API initialization failed 
     // Can reload page here 
   }, '5.60');
-  function OrderCallback(data){
+  VK.addCallback("onOrderBoxDone", function OrderCallback(data){
     document.getElementById("share_wall_message").value=data.status;
-  }
-  VK.addCallback("onOrderBoxDone", function OrderCallback(data));
+  });
   function InviteBox() {
     VK.callMethod("showInviteBox");
   };
