@@ -10,7 +10,7 @@
     // API initialization failed 
     // Can reload page here 
   }, '5.60');
-  VK.addCallback("onOrderBoxDone", function OrderCallback(data){
+  VK.addCallback('onOrderBoxDone', function OrderCallback(data){
     document.getElementById("share_wall_message").value=data;
   });
   function InviteBox() {
@@ -33,6 +33,7 @@
     VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
   };
   function ShareBox_im() {
+    alert('test');
     var attachments = []
     var message=document.getElementById("share_im_message").value
     if (document.getElementById('checkbox_im_photo').checked){
@@ -101,7 +102,7 @@
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
 <hr>
-<button onclick="OrderBox()" class="button">showOrderBox_item2</button>
+<button onclick="OrderBox()" class="button">showOrderBox_item3</button>
 <style>.button{
   width: 100%;
   font-size: 300%;
