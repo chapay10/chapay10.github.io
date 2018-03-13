@@ -6,7 +6,13 @@
 <script type="text/javascript">
   VK.init(function () {
     console.log("auth ok");
-     if (document.getElementById('callbacks').checked) {
+  }, function () {
+    // API initialization failed 
+    // Can reload page here 
+  }, '5.60');
+  
+  function InviteBox() {
+    if (document.getElementById('callbacks').checked) {
       VK.addCallback('onInviteBoxDone', function InviteCallback(status, data){
              var text=status
              if (typeof(data)!="undefined") {
@@ -15,13 +21,6 @@
              alert(text);
        });
     }
-  }, function () {
-    // API initialization failed 
-    // Can reload page here 
-  }, '5.60');
-  
-  function InviteBox() {
-   
     VK.callMethod("showInviteBox");
 };
   function SettingsBox() {
@@ -98,7 +97,7 @@
     };
   </script>
 <div><label class="container">Callbacks on
-  <input type="checkbox" id="callbacks" checked>
+  <input type="checkbox" id="callbacks">
   <span class="checkmark"></span>
 </label>
 </div>
