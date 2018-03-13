@@ -1,0 +1,71 @@
+<html>
+<head>
+    <script src="https://tk-albino.cs7777.vk.com/js/api/mobile_sdk.js" type="text/javascript"></script>
+</head>
+<body>
+<script type="text/javascript">
+  VK.init(function () {
+    console.log("auth ok");
+  }, function () {
+    // API initialization failed 
+    // Can reload page here 
+  }, '5.60');
+  function InviteBox() {
+    VK.callMethod("showInviteBox");
+  };
+  function SettingsBox() {
+    VK.callMethod("showSettingsBox", document.getElementById("scope").value)
+  };
+  function RequestBox() {
+    VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
+  };
+  function ShareBox_wall() {
+    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, "", "wall");
+  };
+  function ShareBox_im() {
+    VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "im");
+  };
+  function testApiCall() {
+    VK.api("wall.post", {"message": "Hello!"}, function (data) {
+      alert("Post ID:" + data.response.post_id);
+    });
+  }
+</script>
+<button onclick="InviteBox()" class="button">showInviteBox</button>
+<br>
+<hr>
+<button onclick="SettingsBox()" class="button">showSettingsBox</button>
+<div>scope:</div>
+<input type="text" value="3295" id="scope">
+<hr>
+<button onclick="RequestBox()" class="button">showRequestBox</button>
+id:
+<input type="text" value="1" id="request_id">
+request_message:
+<input type="text" value="Test_Message" id="request_message">
+request_key:
+<input type="text" value="Test_request_key" id="request_key">
+<hr>
+<button onclick="ShareBox_wall()" class="button">showShareBox - wall</button>
+message:
+<input type="text" value="Test_Message" id="share_wall_message">
+<hr>
+<button onclick="ShareBox_im()" class="button">showShareBox - im</button>
+message:
+<input type="text" value="Test_Message" id="share_im_message">
+<hr>
+<button onclick="testApiCall()" class="button">Call api</button>
+<style>.button{
+	width: 100%;
+	font-size: 300%;
+	border-radius: 5px;
+    border: 1px solid #666;
+}
+input{
+	font-size: 300%;
+	border-radius: 5px;
+    border: 1px solid #666;
+}
+</style>
+</body>
+</html>
