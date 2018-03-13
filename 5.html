@@ -70,15 +70,13 @@
     });
   }
   function OrderBox_1() {
-    VK.addCallback('onOrderBoxDone', function OrderCallback(data){
-        alert(data);
+    VK.addCallback('onOrderBoxDone', function OrderCallback(status){
+        alert(status);
     });
     VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
     };
   function OrderBox_2() {
-    VK.addCallback('onOrderBoxDone', function OrderCallback(data){
-        alert(data);
-    });
+    
     VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
     };
   </script>
