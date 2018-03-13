@@ -33,7 +33,6 @@
     VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
   };
   function ShareBox_im() {
-    alert('test');
     var attachments = []
     var message=document.getElementById("share_im_message").value
     if (document.getElementById('checkbox_im_photo').checked){
@@ -50,6 +49,7 @@
     });
   }
   function OrderBox() {
+    alert('test');
     VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
     };
   </script>
@@ -102,7 +102,7 @@
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
 <hr>
-<button onclick="OrderBox()" class="button">showOrderBox_item3</button>
+<button onclick="OrderBox()" class="button">showOrderBox_item4</button>
 <style>.button{
   width: 100%;
   font-size: 300%;
