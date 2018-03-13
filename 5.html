@@ -19,7 +19,10 @@
   };
   function SettingsBox() {
     VK.addCallback('onSettingsBoxDone', function SettingsCallback(status, data){
-           alert(status+data);
+           var text=status
+           if (typeof(data)!="undefined") {
+            text=text+"\n access_token="+data;
+           }
     });
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
   };
