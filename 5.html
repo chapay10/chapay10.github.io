@@ -43,13 +43,13 @@
   function testApiCall() {
     VK.api("wall.post", {"message": "Hello!"}, function (data) {
       alert("Post ID:" + data.response.post_id);
-    };
-  function showOrderBox() {
+    }};
+  function OrderBox() {
     VK.callMethod("showOrderBox", {"type":"item","item":"qwe"});
     };
   }
 </script>
-    <button onclick="showOrderBox()" class="button">OrderBox1</button>
+    <button onclick="OrderBox()" class="button">showOrderBox1</button>
     <hr>
 <button onclick="InviteBox()" class="button">showInviteBox</button>
 <br>
