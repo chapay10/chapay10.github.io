@@ -22,7 +22,7 @@
   function ShareBox_wall() {
     var attachments = []
     if (document.getElementById('checkbox_wall_photo').checked){
-      attachments[attachments.length]="photo-154090033_456239029";
+      attachments[attachments.length]="photo-154090033_456239017";
      }
     if (document.getElementById('checkbox_wall_link').checked){
       attachments[attachments.length]=document.getElementById("share_wall_link").value;
@@ -30,7 +30,15 @@
     VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
   };
   function ShareBox_im() {
-    VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "im");
+    var attachments = []
+    var message=document.getElementById("share_im_message").value
+    if (document.getElementById('checkbox_im_photo').checked){
+      attachments[attachments.length]="photo-154090033_456239017";
+     }
+    if (document.getElementById('checkbox_im_link').checked){
+      message=message+" "+document.getElementById("share_im_link").value;
+    }
+    VK.callMethod("showShareBox", message, attachments, "im");
   };
   function testApiCall() {
     VK.api("wall.post", {"message": "Hello!"}, function (data) {
@@ -72,6 +80,18 @@
 <button onclick="ShareBox_im()" class="button">showShareBox - im</button>
 <div class="text">message:</div>
 <input type="text" value="Test_Message" id="share_im_message">
+<div><label class="container">Прикрепить фотографию
+  <input type="checkbox" id="checkbox_im_photo">
+  <span class="checkmark"></span>
+</label>
+</div>
+<div><label class="container">Прикрепить ссылку
+  <input type="checkbox" id="checkbox_im_link">
+  <span class="checkmark"></span>
+</label>
+</div>
+<div class="text">Link:</div>
+<input type="text" value="https://ya.ru" id="share_im_link">
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
 <style>.button{
