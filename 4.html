@@ -39,19 +39,19 @@
 <input type="text" value="3295" id="scope">
 <hr>
 <button onclick="RequestBox()" class="button">showRequestBox</button>
-id:
+<div>id:</div>
 <input type="text" value="1" id="request_id">
-request_message:
+<div>request_message:</div>
 <input type="text" value="Test_Message" id="request_message">
-request_key:
+<div>request_key:</div>
 <input type="text" value="Test_request_key" id="request_key">
 <hr>
 <button onclick="ShareBox_wall()" class="button">showShareBox - wall</button>
-message:
+<div>message:</div>
 <input type="text" value="Test_Message" id="share_wall_message">
 <hr>
 <button onclick="ShareBox_im()" class="button">showShareBox - im</button>
-message:
+<div>message:</div>
 <input type="text" value="Test_Message" id="share_im_message">
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
@@ -70,6 +70,16 @@ input{
 	font-size: 300%;
 	border-radius: 5px;
     border: 1px solid #666;
+}
+.block {
+        display: block;
+    }
+div{
+	font-size: 300%;
+}
+hr{
+	border: 4px solid;
+	margin: 1%;
 }
 </style>
 </body>
