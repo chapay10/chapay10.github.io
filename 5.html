@@ -22,8 +22,7 @@
        });
     }
     VK.callMethod("showInviteBox");
-    VK.removeCallback('onInviteBoxDone', InviteCallback); 
-  };
+};
   function SettingsBox() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onSettingsBoxDone', function SettingsCallback(status, token){
