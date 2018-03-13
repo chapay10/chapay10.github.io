@@ -10,9 +10,7 @@
     // API initialization failed 
     // Can reload page here 
   }, '5.60');
-  VK.addCallback('onOrderBoxDone', function OrderCallback(data){
-    document.getElementById("share_wall_message").value=data;
-  });
+  
   function InviteBox() {
     VK.callMethod("showInviteBox");
   };
@@ -50,6 +48,9 @@
   }
   function OrderBox() {
     alert('test');
+     VK.addCallback('onOrderBoxDone', function OrderCallback(data){
+    alert(data);
+  });
     VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
     };
   </script>
@@ -102,7 +103,7 @@
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
 <hr>
-<button onclick="OrderBox()" class="button">showOrderBox_item4</button>
+<button onclick="OrderBox()" class="button">showOrderBox_item5</button>
 <style>.button{
   width: 100%;
   font-size: 300%;
