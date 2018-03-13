@@ -18,6 +18,9 @@
     VK.callMethod("showInviteBox");
   };
   function SettingsBox() {
+    VK.addCallback('onSettingsBoxDone', function SettingsCallback(data){
+           alert(data);
+    });
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
   };
   function RequestBox() {
