@@ -20,7 +20,14 @@
     VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
   function ShareBox_wall() {
-    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, "photo-154090033_456239029", "wall");
+    var attachments = []
+    if (document.getElementById('checkbox_wall_photo').checked){
+      attachments[attachments.length]="photo-154090033_456239029";
+     }
+    if (document.getElementById('checkbox_wall_link').checked){
+      attachments[attachments.length]=document.getElementById("share_wall_link").value;
+    }
+    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
   };
   function ShareBox_im() {
     VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "im");
@@ -49,12 +56,21 @@
 <button onclick="ShareBox_wall()" class="button">showShareBox - wall</button>
 <div class="text">message:</div>
 <input type="text" value="Test_Message" id="share_wall_message">
-<div class="checkbox">
-<input type="checkbox" id="check"><label for="check"><span>Выбери меня</span></label>
+<div><label class="container">Прикрепить фотографию
+  <input type="checkbox" id="checkbox_wall_photo">
+  <span class="checkmark"></span>
+</label>
 </div>
+<div><label class="container">Прикрепить ссылку
+  <input type="checkbox" id="checkbox_wall_link">
+  <span class="checkmark"></span>
+</label>
+</div>
+<div class="text">Link:</div>
+<input type="text" value="https://ya.ru" id="share_wall_link">
 <hr>
 <button onclick="ShareBox_im()" class="button">showShareBox - im</button>
-<div>message:</div>
+<div class="text">message:</div>
 <input type="text" value="Test_Message" id="share_im_message">
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
@@ -77,41 +93,77 @@ input{
 .block {
         display: block;
     }
-div{
+.text{
 	font-size: 300%;
 }
 hr{
 	border: 4px solid;
 	margin: 1%;
 }
-.checkbox {
-  position:relative;
-  padding-left:25px;
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 55px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 300%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-.checkbox input[type=checkbox] {
-  display:none;
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
-.checkbox label:after {
-  content:'';
-  display:block;
-  height:40px;
-  width:40px;
-  outline:1px solid #939598;
-  position:absolute;
-  top:0;
-  left:0;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
 }
-.checkbox input[type=checkbox]:checked + label:after {
-  outline:1px solid #939598;
-  border:2px solid #fff;
-  width:40px;
-  height:40px;
-  background-color:#63849F;
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
 }
-span{
-  padding-left: 30px;
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 14px;
+  top: 5px;
+  width: 20px;
+  height: 30px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 </style>
 </body>
