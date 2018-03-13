@@ -46,12 +46,17 @@
       alert("Post ID:" + data.response.post_id);
     });
   }
-  function OrderBox() {
-    alert('test');
-     VK.addCallback('onOrderBoxDone', function OrderCallback(data){
-    alert(data);
-  });
+  function OrderBox_1() {
+    VK.addCallback('onOrderBoxDone', function OrderCallback(data){
+        alert(data);
+    });
     VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
+    };
+  function OrderBox_2() {
+    VK.addCallback('onOrderBoxDone', function OrderCallback(data){
+        alert(data);
+    });
+    VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
     };
   </script>
 <button onclick="InviteBox()" class="button">showInviteBox</button>
@@ -103,7 +108,9 @@
 <hr>
 <button onclick="testApiCall()" class="button">Call api</button>
 <hr>
-<button onclick="OrderBox()" class="button">showOrderBox_item5</button>
+<button onclick="OrderBox_1()" class="button">showOrderBox - 1 голос</button>
+<hr>
+<button onclick="OrderBox_2()" class="button">showOrderBox - 5 голосов</button>
 <style>.button{
   width: 100%;
   font-size: 300%;
