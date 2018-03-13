@@ -19,7 +19,7 @@
   };
   function SettingsBox() {
     VK.addCallback('onSettingsBoxDone', function SettingsCallback(data){
-           alert(data);
+           alert(data+data.data);
     });
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
   };
