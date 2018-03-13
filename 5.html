@@ -20,7 +20,7 @@
     VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
   function ShareBox_wall() {
-    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, ["photo-154090033_456239029", "https://ya.ru"], "wall");
+    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, "photo-154090033_456239029", "wall");
   };
   function ShareBox_im() {
     VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "im");
@@ -35,20 +35,23 @@
 <br>
 <hr>
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
-<div>scope:</div>
+<div class="text">scope:</div>
 <input type="text" value="3295" id="scope">
 <hr>
 <button onclick="RequestBox()" class="button">showRequestBox</button>
-<div>id:</div>
+<div class="text">id:</div>
 <input type="text" value="1" id="request_id">
 <div>request_message:</div>
 <input type="text" value="Test_Message" id="request_message">
-<div>request_key:</div>
+<div class="text">request_key:</div>
 <input type="text" value="Test_request_key" id="request_key">
 <hr>
 <button onclick="ShareBox_wall()" class="button">showShareBox - wall</button>
-<div>message:</div>
+<div class="text">message:</div>
 <input type="text" value="Test_Message" id="share_wall_message">
+<div class="checkbox">
+<input type="checkbox" id="check"><label for="check"><span>Выбери меня</span></label>
+</div>
 <hr>
 <button onclick="ShareBox_im()" class="button">showShareBox - im</button>
 <div>message:</div>
@@ -80,6 +83,35 @@ div{
 hr{
 	border: 4px solid;
 	margin: 1%;
+}
+.checkbox {
+  position:relative;
+  padding-left:25px;
+}
+.checkbox input[type=checkbox] {
+  display:none;
+}
+.checkbox label:after {
+  content:'';
+  display:block;
+  height:40px;
+  width:40px;
+  outline:1px solid #939598;
+  position:absolute;
+  top:0;
+  left:0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkbox input[type=checkbox]:checked + label:after {
+  outline:1px solid #939598;
+  border:2px solid #fff;
+  width:40px;
+  height:40px;
+  background-color:#63849F;
+}
+span{
+  padding-left: 30px;
 }
 </style>
 </body>
