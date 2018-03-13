@@ -12,8 +12,9 @@
   }, '5.60');
   
   function InviteBox() {
-    VK.addCallback('onOrderBoxDone', function InviteCallback(data){
-        alert(data);
+    VK.addCallback('onInviteBoxDone', function InviteCallback(data){
+           alert(data);
+    });
     VK.callMethod("showInviteBox");
   };
   function SettingsBox() {
