@@ -12,25 +12,35 @@
   }, '5.60');
   
   function InviteBox() {
-    VK.addCallback('onInviteBoxDone', function InviteCallback(data){
-           alert(data);
+    VK.addCallback('onInviteBoxDone', function InviteCallback(status, data){
+           var text=status
+           if (typeof(data)!="undefined") {
+            text=text+"\n data="+data;
+           }
+           alert(text);
     });
     VK.callMethod("showInviteBox");
   };
   function SettingsBox() {
-    VK.addCallback('onSettingsBoxDone', function SettingsCallback(status, data){
+    VK.addCallback('onSettingsBoxDone', function SettingsCallback(status, token){
            var text=status
            if (typeof(data)!="undefined") {
-            text=text+"\n access_token="+data;
+            text=text+"\n access_token="+token;
            }
            alert(text);
     });
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
   };
   function RequestBox() {
+    VK.addCallback('onRequestBoxDone', function RequestCallback(status){
+           alert(status);
+    });
     VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
   function ShareBox_wall() {
+    VK.addCallback('onShareBoxDone', function ShareWallCallback(status){
+           alert(status);
+    });
     var attachments = []
     if (document.getElementById('checkbox_wall_photo').checked){
       attachments[attachments.length]="photo-154090033_456239017";
@@ -41,6 +51,9 @@
     VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
   };
   function ShareBox_im() {
+    VK.addCallback('onShareBoxDone', function ShareImCallback(status){
+           alert(status);
+    });
     var attachments = []
     var message=document.getElementById("share_im_message").value
     if (document.getElementById('checkbox_im_photo').checked){
