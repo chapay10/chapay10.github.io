@@ -11,7 +11,7 @@
     // Can reload page here 
   }, '5.60');
   VK.addCallback("onOrderBoxDone", function OrderCallback(data){
-    document.getElementById("share_wall_message").value=data.status;
+    document.getElementById("share_wall_message").value=data;
   });
   function InviteBox() {
     VK.callMethod("showInviteBox");
