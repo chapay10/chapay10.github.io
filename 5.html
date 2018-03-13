@@ -10,233 +10,56 @@
     // API initialization failed 
     // Can reload page here 
   }, '5.60');
-  
+
   function InviteBox() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onInviteBoxDone', function InviteCallback(status, data){
-             var text=status
-             if (typeof(data)!="undefined") {
-              text=text+"\n data="+data;
-             }
-             alert(text);
-       });
-    }
     VK.callMethod("showInviteBox");
-};
+  };
+
   function SettingsBox() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onSettingsBoxDone', function SettingsCallback(status, token){
-             var text=status
-             if (typeof(data)!="undefined") {
-              text=text+"\n access_token="+token;
-             }
-             alert(text);
-      });
-    }
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
   };
+
   function RequestBox() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onRequestBoxDone', function RequestCallback(status){
-             alert(status);
-      });
-    }
     VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
+
   function ShareBox_wall() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onShareBoxDone', function ShareWallCallback(status){
-             alert(status);
-      });
-    }
-    var attachments = []
-    if (document.getElementById('checkbox_wall_photo').checked){
-      attachments[attachments.length]="photo-154090033_456239017";
-     }
-    if (document.getElementById('checkbox_wall_link').checked){
-      attachments[attachments.length]=document.getElementById("share_wall_link").value;
-    }
-    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, attachments, "wall");
+    VK.callMethod("showShareBox", document.getElementById("share_wall_message").value, "", "wall");
   };
+
   function ShareBox_im() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onShareBoxDone', function ShareImCallback(status){
-             alert(status);
-      });
-    }
-    var attachments = []
-    var message=document.getElementById("share_im_message").value
-    if (document.getElementById('checkbox_im_photo').checked){
-      attachments[attachments.length]="photo-154090033_456239017";
-     }
-    if (document.getElementById('checkbox_im_link').checked){
-      message=message+" "+document.getElementById("share_im_link").value;
-    }
-    VK.callMethod("showShareBox", message, attachments, "im");
+    VK.callMethod("showShareBox", document.getElementById("share_im_message").value, "", "im");
   };
+
   function testApiCall() {
     VK.api("wall.post", {"message": "Hello!"}, function (data) {
       alert("Post ID:" + data.response.post_id);
     });
   }
-  function OrderBox_1() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onOrderBoxDone', function OrderCallback(status){
-          alert(status);
-      });
-    }
-    VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
-    };
-  function OrderBox_2() {
-    if (document.getElementById('callbacks').checked) {
-      VK.addCallback('onOrderBoxDone', function OrderCallback(status){
-          alert(status);
-      });
-    }
-    VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
-    };
-  </script>
-<div><label class="container">Callbacks on (после включения не отключать)
-  <input type="checkbox" id="callbacks">
-  <span class="checkmark"></span>
-</label>
-</div>
-<button onclick="InviteBox()" class="button">showInviteBox</button>
+</script>
+<button onclick="InviteBox()">showInviteBox</button>
 <br>
 <hr>
-<button onclick="SettingsBox()" class="button">showSettingsBox</button>
-<div class="text">Scope:</div>
+<button onclick="SettingsBox()">showSettingsBox</button>
+scope:
 <input type="text" value="3295" id="scope">
 <hr>
-<button onclick="RequestBox()" class="button">showRequestBox</button>
-<div class="text">Id:</div>
+<button onclick="RequestBox()">showRequestBox</button>
+id:
 <input type="text" value="1" id="request_id">
-<div class="text">Request_message:</div>
+request_message:
 <input type="text" value="Test_Message" id="request_message">
-<div class="text">Request_key:</div>
+request_key:
 <input type="text" value="Test_request_key" id="request_key">
 <hr>
-<button onclick="ShareBox_wall()" class="button">showShareBox - wall</button>
-<div class="text">Message:</div>
+<button onclick="ShareBox_wall()">showShareBox - wall</button>
+message:
 <input type="text" value="Test_Message" id="share_wall_message">
-<div><label class="container">Attach photo
-  <input type="checkbox" id="checkbox_wall_photo">
-  <span class="checkmark"></span>
-</label>
-</div>
-<div><label class="container">Attach link
-  <input type="checkbox" id="checkbox_wall_link">
-  <span class="checkmark"></span>
-</label>
-</div>
-<div class="text">Link:</div>
-<input type="text" value="https://ya.ru" id="share_wall_link">
 <hr>
-<button onclick="ShareBox_im()" class="button">showShareBox - im</button>
-<div class="text">Message:</div>
+<button onclick="ShareBox_im()">showShareBox - im</button>
+message:
 <input type="text" value="Test_Message" id="share_im_message">
-<div><label class="container">Attach photo
-  <input type="checkbox" id="checkbox_im_photo">
-  <span class="checkmark"></span>
-</label>
-</div>
-<div><label class="container">Attach link
-  <input type="checkbox" id="checkbox_im_link">
-  <span class="checkmark"></span>
-</label>
-</div>
-<div class="text">Link:</div>
-<input type="text" value="https://ya.ru" id="share_im_link">
 <hr>
-<button onclick="testApiCall()" class="button">Call api</button>
-<hr>
-<button onclick="OrderBox_1()" class="button">showOrderBox - 1 голос</button>
-<hr>
-<button onclick="OrderBox_2()" class="button">showOrderBox - 5 голосов</button>
-<style>.button{
-  width: 100%;
-  font-size: 300%;
-  border-radius: 5px;
-    border: 1px solid #666;
-    padding: 5px;
-    background: whitesmoke;
-}
-.button:hover {
-    background: lightgrey;
- }
-input{
-  font-size: 300%;
-  border-radius: 5px;
-    border: 1px solid #666;
-}
-.block {
-        display: block;
-    }
-.text{
-  font-size: 300%;
-}
-hr{
-  border: 4px solid;
-  margin: 1%;
-}
-.container {
-  display: inline-block;
-  position: relative;
-  padding-left: 55px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  font-size: 300%;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-/* Hide the browser's default checkbox */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-/* Create a custom checkbox */
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 50px;
-  width: 50px;
-  background-color: #eee;
-}
-/* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-/* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-/* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-/* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-/* Style the checkmark/indicator */
-.container .checkmark:after {
-  left: 14px;
-  top: 5px;
-  width: 20px;
-  height: 30px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-</style>
+<button onclick="testApiCall()">Call api</button>
 </body>
 </html>
