@@ -6,7 +6,6 @@
 <script type="text/javascript">
   VK.init(function () {
     console.log("auth ok");
-    alert(VK.queryParams);
   }, function () {
     // API initialization failed 
     // Can reload page here 
@@ -19,7 +18,8 @@
              if (typeof(data)!="undefined") {
               text=text+"\n data="+data;
              }
-             alert(text);
+             //alert(text);
+             document.getElementById('callback_text').value = text;
        });
     }
     VK.callMethod("showInviteBox");
@@ -31,7 +31,8 @@
              if (typeof(token)!="undefined") {
               text=text+"\n access_token="+token;
              }
-             alert(text);
+             //alert(text);
+             document.getElementById('callback_text').value = text;
       });
     }
     VK.callMethod("showSettingsBox", document.getElementById("scope").value)
@@ -39,7 +40,8 @@
   function RequestBox() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onRequestBoxDone', function RequestCallback(status){
-             alert(status);
+             //alert(status);
+             document.getElementById('callback_text').value = status;
       });
     }
     VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
@@ -47,7 +49,8 @@
   function ShareBox_wall() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onShareBoxDone', function ShareWallCallback(status){
-             alert(status);
+             //alert(status);
+             document.getElementById('callback_text').value = status;
       });
     }
     var attachments = []
@@ -62,7 +65,8 @@
   function ShareBox_im() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onShareBoxDone', function ShareImCallback(status){
-             alert(status);
+             //alert(status);
+             document.getElementById('callback_text').value = status;
       });
     }
     var attachments = []
@@ -83,7 +87,8 @@
   function OrderBox_1() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onOrderBoxDone', function OrderCallback(status){
-          alert(status);
+          //alert(status);
+          document.getElementById('callback_text').value = status;
       });
     }
     VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
@@ -91,7 +96,8 @@
   function OrderBox_2() {
     if (document.getElementById('callbacks').checked) {
       VK.addCallback('onOrderBoxDone', function OrderCallback(status){
-          alert(status);
+          //alert(status);
+          document.getElementById('callback_text').value = status;
       });
     }
     VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
@@ -102,6 +108,9 @@
   <span class="checkmark"></span>
 </label>
 </div>
+<div class="text">Callback result:</div>
+<input type="text" id="callback_text" class="callback">
+<hr>
 <button onclick="InviteBox()" class="button">showInviteBox</button>
 <br>
 <hr>
@@ -237,6 +246,9 @@ hr{
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.callback{
+  width: 100%
 }
 </style>
 </body>
