@@ -75,8 +75,8 @@
     VK.callMethod("showShareBox", message, attachments, "im");
   };
   function testApiCall() {
-    VK.api("wall.post", {"message": "Hello!"}, function (data) {
-      alert("Post ID:" + data.response.post_id);
+    VK.api("status.set", {"text": "Hello!"}, function (data) {
+      alert("Post ID:" + data.response);
     });
   };
   function OrderBox_1() {
