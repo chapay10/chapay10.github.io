@@ -81,7 +81,7 @@
   };
   function testApiCall() {
     VK.api("status.set", {"text": "Hello!"}, function (data) {
-      alert("Post ID:" + data.response);
+       document.getElementById('callback_text').value = data;
     });
   };
   function OrderBox_1() {
