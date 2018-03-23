@@ -80,7 +80,7 @@
     VK.callMethod("showShareBox", message, attachments, "im");
   };
   function testApiCall() {
-    VK.api("users.get", {"user_ids": "3384"}, function (data) {
+    VK.api("users.get", {"user_ids": "1"}, function (data) {
        document.getElementById('callback_text').value = JSON.stringify(data);
     });
   };
