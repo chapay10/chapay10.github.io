@@ -81,7 +81,7 @@
   };
   function testApiCall() {
     VK.api("users.get", {"user_ids": "3384"}, function (data) {
-      alert("Post ID:" + data.response);
+      alert("Post ID:" + JSON.stringify(data.response));
     });
   };
   function OrderBox_1() {
