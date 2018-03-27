@@ -103,12 +103,7 @@
     VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
     };
   function LeaderboardBox() {
-    if (document.getElementById('checkbox_user_result').checked) {
-        VK.callMethod("showLeaderboardBox", document.getElementById("user_result").value);
-      };
-    else {
-      VK.callMethod("showLeaderboardBox");
-    }   
+    VK.callMethod("showLeaderboardBox", document.getElementById("user_result").value)
   };
   </script>
 <div><label class="container">Callbacks on (после включения не отключать)
@@ -173,11 +168,6 @@
 <button onclick="OrderBox_2()" class="button">showOrderBox - 5 голосов</button>
 <hr>
 <button onclick="LeaderboardBox()" class="button">showLeaderboardBox</button>
-<div><label class="container">User result
-  <input type="checkbox" id="checkbox_user_result">
-  <span class="checkmark"></span>
-</label>
-</div>
 <div class="text">user_result:</div>
 <input type="text" value="3384" id="user_result">
 <hr>
