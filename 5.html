@@ -1,6 +1,6 @@
 <html>
 <head>
-    <script src="https://tk-albino.cs7777.vk.com/js/api/mobile_sdk.js" type="text/javascript"></script>
+    <script src="https://vk.com/js/api/mobile_sdk.js" type="text/javascript"></script>
 </head>
 <body>
 <script type="text/javascript">
@@ -80,8 +80,8 @@
     VK.callMethod("showShareBox", message, attachments, "im");
   };
   function testApiCall() {
-    VK.api("users.get", {"user_ids": "3384"}, function (data) {
-      alert("Post ID:" + JSON.stringify(data.response));
+    VK.api("users.get", {"user_ids": "1"}, function (data) {
+       document.getElementById('callback_text').value = JSON.stringify(data);
     });
   };
   function OrderBox_1() {
@@ -102,6 +102,13 @@
     }
     VK.callMethod("showOrderBox", {"type":"item","item":"item2"});
     };
+  function LeaderboardBox() {
+    if (document.getElementById('checkbox_user_result').checked) {
+        VK.callMethod("showLeaderboardBox", document.getElementById("user_result").value);
+      } else {
+      VK.callMethod("showLeaderboardBox");
+    }   
+  };
   </script>
 <div><label class="container">Callbacks on (после включения не отключать)
   <input type="checkbox" id="callbacks">
@@ -163,6 +170,16 @@
 <button onclick="OrderBox_1()" class="button">showOrderBox - 1 голос</button>
 <hr>
 <button onclick="OrderBox_2()" class="button">showOrderBox - 5 голосов</button>
+<hr>
+<button onclick="LeaderboardBox()" class="button">showLeaderboardBox</button>
+<div><label class="container">User result
+  <input type="checkbox" id="checkbox_user_result">
+  <span class="checkmark"></span>
+</label>
+</div>
+<div class="text">user_result:</div>
+<input type="text" value="3384" id="user_result">
+<hr>
 <style>.button{
   width: 100%;
   font-size: 300%;
