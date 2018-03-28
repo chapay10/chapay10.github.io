@@ -13,8 +13,8 @@
 }, '5.73');
   var user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
   function InviteBox() {
-    VK.addCallback('onSendStatsDone', function() {
-      console.log('SEND STATS DONE');
+    VK.addCallback('onSendStatsDone', function(data) {
+      alert(JSON.stringify(data));
     });
     VK.callMethod('sendStats', user);
   };
