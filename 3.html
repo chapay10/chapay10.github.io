@@ -14,7 +14,7 @@
   var user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
   function InviteBox() {
     VK.addCallback('onSendStatsDone', function(data) {
-      alert(JSON.stringify(data));
+      alert(data);
     });
     VK.callMethod('sendStats', user);
   };
