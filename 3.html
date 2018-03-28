@@ -13,9 +13,12 @@
 }, '5.73');
   var user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
   function InviteBox() {
-    VK.addCallback('onSendStatsDone', function(data) {
-      alert(data);
-    });
+   VK.addCallback('onSendStatsDone', function() {
+  console.log('SEND STATS DONE');
+});
+VK.addCallback('onSendStatsFail', function() {
+  console.log('SEND STATS FAIL');
+});
     VK.callMethod('sendStats', user);
   };
 </script>
