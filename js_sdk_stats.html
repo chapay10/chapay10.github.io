@@ -42,7 +42,7 @@
     var attach = document.getElementById('attach').value;
     attach = attach.split(',');
     
-    VK.api('wall.post', {owner_id: owner_id, message: message, attachments: attach, from_group: 1, place_id: 12568399, mark_as_ads: 1}, function(resp) {
+    VK.api('wall.post', {owner_id: owner_id, message: message, attachments: attach, from_group: 1}, function(resp) {
       console.log('wall_post', resp);
     })
   }
