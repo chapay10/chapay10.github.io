@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://tk-vodka.cs7777.vk.com/js/api/openapi.js?116"></script>
+</head>
+<body>
+<button onclick="test()">test</button>
+<button onclick="post()">Post</button>
+<script>
+    VK.init({apiId: 6311804});
+    function test() {
+      VK.App.open('vkpay', {test: 'test', 'action': 'pay-to-service'});
+      console.log('test');
+    }
+
+    function post() {
+      console.log('APi');
+      VK.api('wall.post', {owner_id: -162268327, message: 'test message', attachments: ['photo-163179135_456239869', 'photo-163179135_456239866', 'market167482617_1410570'], from_group: 1, place_id: 12568399}, function (reps) {
+        console.log(reps);
+      });
+    }
+</script>
+</body>
+</html>
