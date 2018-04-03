@@ -33,7 +33,7 @@
     var attach = document.getElementById('attach').value;
     attach = attach.split(',');
 
-    VK.callMethod('showWallPostBox', {owner_id: owner_id, message: message, attachments: attach, from_group: 1,  lat: 12, long: 24});
+    VK.callMethod('showWallPostBox', {owner_id: owner_id, message: message, attachments: attach, from_group: 0});
   }
   
   function testWall() {
