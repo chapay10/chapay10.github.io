@@ -5,9 +5,15 @@
         <description>test test</description>
         <link>https://test.com</link>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <lastBuildDate>Wed, 30 May 2018 15:12:36 +0700</lastBuildDate>
-        <pubDate>Wed, 30 May 2018 15:11:57 +0700</pubDate>
+        <lastBuildDate>Wed, 30 May 2018 16:17:16 +0700</lastBuildDate>
+        <pubDate>Wed, 30 May 2018 16:16:59 +0700</pubDate>
         <generator>FeedForAll v2.0 (2.0.4.0) unlicensed version http://www.feedforall.com</generator>
+        <item>
+            <title>Test 5</title>
+            <description>https://ya.ru aaa</description>
+            <guid isPermaLink="false">3AC5EB69-513D-4C63-955D-B3728C7712A8</guid>
+            <pubDate>Wed, 30 May 2018 16:16:59 +0700</pubDate>
+        </item>
         <item>
             <title>Test 4</title>
             <description>&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://online-marketing.com.ua/wp-content/uploads/2017/05/yandex-1-864x400_c.jpg&quot;&gt;&lt;br /&gt;
