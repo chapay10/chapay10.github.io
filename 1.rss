@@ -7,6 +7,12 @@
     <description>sadfsdaf</description>
     <language>en-us</language>
     <item>
+      <title><script>alert();</script></title>
+      <pubDate>Wed, 30 May 2018 16:59:11 +0700</pubDate>
+      <description><![CDATA[<script>alert();</script>]]></description>
+      <link>https://yandex.ru</link>
+    </item>
+    <item>
       <title>Картинка</title>
       <pubDate>Wed, 30 May 2018 16:27:44 +0700</pubDate>
       <description><![CDATA[Тут должна быть картинка
