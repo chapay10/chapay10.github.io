@@ -7,10 +7,23 @@
     <description>sadfsdaf</description>
     <language>en-us</language>
     <item>
-      <title><script>alert();</script></title>
+      <title>Testtesttesttesttesttesttetstetstststststststsdghashfjhsdfghjasgjdfhgasdjhfgsjagdfhjagsdfhjgsadhjfgjhsagdf kjsdf</title>
+      <pubDate>Wed, 30 May 2018 17:03:52 +0700</pubDate>
+      <description><![CDATA[<table cols=2 border=3>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td></tr>
+<tr>
+<td>1</td>
+<td>2</td></tr></tbody></table>]]></description>
+      <link>https://yandex.ru?q=&lt;script&gt;alert();&lt;/script&gt;</link>
+    </item>
+    <item>
+      <title>&lt;script&gt;alert();&lt;/script&gt;</title>
       <pubDate>Wed, 30 May 2018 16:59:11 +0700</pubDate>
       <description><![CDATA[<script>alert();</script>]]></description>
-      <link>https://yandex.ru</link>
+      <link>https://yandex.ru?q=&lt;script&gt;alert();&lt;/script&gt;</link>
     </item>
     <item>
       <title>Картинка</title>
