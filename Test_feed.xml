@@ -5,9 +5,16 @@
         <description>test test</description>
         <link>https://test.com</link>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <lastBuildDate>Wed, 30 May 2018 14:42:25 +0700</lastBuildDate>
-        <pubDate>Wed, 30 May 2018 14:42:04 +0700</pubDate>
+        <lastBuildDate>Wed, 30 May 2018 14:55:34 +0700</lastBuildDate>
+        <pubDate>Wed, 30 May 2018 14:55:23 +0700</pubDate>
         <generator>FeedForAll v2.0 (2.0.4.0) unlicensed version http://www.feedforall.com</generator>
+        <item>
+            <title>Test 2</title>
+            <description>Test 2</description>
+            <link>https://test.com/test2</link>
+            <guid isPermaLink="false">B7BB917E-2FB2-43F4-B0F9-A1D8555B1F34</guid>
+            <pubDate>Wed, 30 May 2018 14:55:23 +0700</pubDate>
+        </item>
         <item>
             <title>Test 1</title>
             <description>Test 1!</description>
