@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <generator>RSS Builder by B!Soft</generator>
+    <title>Test</title>
+    <link>test test</link>
+    <description>sadfsdaf</description>
+    <language>en-us</language>
+    <item>
+      <title>Qwerty qwert!</title>
+      <pubDate>Wed, 30 May 2018 15:14:23 +0700</pubDate>
+      <description><![CDATA[<strong>qwe</strong>
+<p><img src="https://i.imgur.com/TfwLCDn.png"></p>
+<p>&nbsp;</p>]]></description>
+      <link>https://test.com/testr</link>
+    </item>
+  </channel>
+</rss>
