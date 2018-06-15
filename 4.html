@@ -106,6 +106,16 @@
     VK.callMethod("showLeaderboardBox", document.getElementById("user_result").value)
   };
     function AllowMessagesFromCommunityBox() {
+         if (document.getElementById('callbacks').checked) {
+      VK.addCallback('onAllowMessagesFromCommunity', function AllowMessagesCallback(){
+          //alert(status);
+          document.getElementById('callback_text').value = 'Allowed';
+      });
+      VK.addCallback('onAllowMessagesFromCommunityCancel', function CancelMessagesCallback(){
+          //alert(status);
+          document.getElementById('callback_text').value = 'Cancel';
+      });       
+    }
     VK.callMethod('showAllowMessagesFromCommunityBox', 154090051);
     };
   </script>
