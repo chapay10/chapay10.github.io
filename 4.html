@@ -105,6 +105,9 @@
   function LeaderboardBox() {
     VK.callMethod("showLeaderboardBox", document.getElementById("user_result").value)
   };
+    function AllowMessagesFromCommunityBox() {
+    VK.callMethod('showAllowMessagesFromCommunityBox', 154090051);
+    };
   </script>
 <div><label class="container">Callbacks on (после включения не отключать)
   <input type="checkbox" id="callbacks">
@@ -170,6 +173,8 @@
 <button onclick="LeaderboardBox()" class="button">showLeaderboardBox</button>
 <div class="text">user_result:</div>
 <input type="text" value="10" id="user_result">
+<hr>
+<button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
 <hr>
 <style>.button{
   width: 100%;
