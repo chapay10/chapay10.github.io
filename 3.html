@@ -1,6 +1,6 @@
 <html>
 <head>
-    <script src="https://tk-virus.cs7777.vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+    <script src="https://tk-water.cs7777.vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
 </head>
 <body>
 <script type="text/javascript">
@@ -12,18 +12,18 @@
      // Can reload page here 
 }, '5.73');
   var user = 977;
-  function InviteBox() {
-   VK.addCallback('onSendStatsDone', function() {
-  console.log('SEND STATS DONE');
+  function AllowMessagesFromCommunityBox() {
+   VK.addCallback('onAllowMessagesFromCommunity', function() {
+  console.log('Allow');
 });
-VK.addCallback('onSendStatsFail', function() {
-  console.log('SEND STATS FAIL');
+VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
+  console.log('Cancel');
 });
-    VK.callMethod('sendStats', user);
+    VK.callMethod('showAllowMessagesFromCommunityBox', 154090051);
   };
 </script>
 <hr>
-<button onclick="InviteBox()" class="button">showInviteBox</button>
+<button onclick="'AllowMessagesFromCommunityBox'()" class="button">'showAllowMessagesFromCommunityBox'</button>
 
 <style>.button{
   width: 100%;
