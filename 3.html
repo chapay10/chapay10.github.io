@@ -7,19 +7,20 @@
   VK.init(function() { 
      // API initialization succeeded 
      // Your code here 
+      VK.addCallback('onAllowMessagesFromCommunity', function() {
+    console.log('Allow');
+   });
+   VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
+    console.log('Cancel');
+   });
+    
   }, function() { 
      // API initialization failed 
      // Can reload page here 
 }, '5.73');
   function AllowMessagesFromCommunityBox() {
    console.log('Click');
-   VK.addCallback('onAllowMessagesFromCommunity', function() {
-    console.log('Allow');
-   });
-   VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
-    console.log('Cancel');
-   });
-    VK.callMethod('showAllowMessagesFromCommunityBox', 154090033);
+   VK.callMethod('showAllowMessagesFromCommunityBox', 154090033);
   };
 </script>
 <hr>
