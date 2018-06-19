@@ -14,12 +14,12 @@
   var user = 977;
   function AllowMessagesFromCommunityBox() {
    VK.addCallback('onAllowMessagesFromCommunity', function() {
-  console.log('Allow');
-});
-VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
-  console.log('Cancel');
-});
-    VK.callMethod('showAllowMessagesFromCommunityBox', 154090051);
+    console.log('Allow');
+   });
+   VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
+    console.log('Cancel');
+   });
+    VK.callMethod('showAllowMessagesFromCommunityBox');
   };
 </script>
 <hr>
