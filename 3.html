@@ -23,7 +23,8 @@
     }, '5.73');
   function AllowMessagesFromCommunityBox() {
     console.log('Click allow');
-    VK.callMethod('showAllowMessagesFromCommunityBox', 154090033);
+    group = document.getElementById("group_id").value;
+    VK.callMethod('showAllowMessagesFromCommunityBox', group);
   };
     
   function SettingsBox() {
@@ -33,6 +34,8 @@
 </script>
 <hr>
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
+<div class="text">Group id:</div>
+<input type="text" value="154090051" id="group_id">
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
 </body>
 </html>
