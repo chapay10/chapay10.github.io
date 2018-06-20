@@ -116,8 +116,7 @@
           document.getElementById('callback_text').value = 'Cancel';
       });       
     }
-    group_id = document.getElementById("group_id").value;
-    VK.callMethod('showAllowMessagesFromCommunityBox', group_id);
+    VK.callMethod('showAllowMessagesFromCommunityBox', 156959936);
     };
   </script>
 <div><label class="container">Callbacks on (после включения не отключать)
@@ -186,8 +185,6 @@
 <input type="text" value="10" id="user_result">
 <hr>
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
-<div class="text">Group_id:</div>
-<input type="text" value="156959936" id="group_id">
 <hr>
 <style>.button{
   width: 100%;
