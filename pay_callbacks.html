@@ -30,6 +30,7 @@
 </noscript>
 <div id="rooter"></div>
 <h1>Коллбеки с вкпей</h1>
+<button onclick="set()">settingsbox</button>
 <p>Подписиваемся на <strong>onExternalAppDone</strong> и <strong>onExternalAppFail</strong></p>
 <p>onExternalAppFail: <span id="onExternalAppFail">нет события</span></p>
 <p>onExternalAppDone: <span id="onExternalAppDone">нет события</span></p>
@@ -71,6 +72,9 @@ VK.addCallback("onExternalAppClose", function (event) {
 	function payGroup() {
                 VK.callMethod('openExternalApp', 'vkpay', {action:"pay-to-group", amount:1, description:"Test callback", group_id:144299453})
         }
+	function set() {
+        VK.callMethod("showSettingsBox", 4096);        
+	}
 </script>
 <!--
   This HTML file is a template.
