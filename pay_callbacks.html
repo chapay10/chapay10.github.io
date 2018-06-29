@@ -48,18 +48,18 @@
 	window.onerror = alert
 	VK.addCallback("onExternalAppFail", function (event) {
 		document.getElementById("onExternalAppFail").innerHTML = JSON.stringify(event)
-    VK.api("messages.send", {"peer_id": 144299453, "message": "onExternalAppFail"+JSON.stringify(event), "v":"5.73"}, function (data) {
+    VK.api("messages.send", {"peer_id": -144299453, "message": "onExternalAppFail"+JSON.stringify(event), "v":"5.73"}, function (data) {
    });
 	})
 	VK.addCallback("onExternalAppDone", function (event) {
 		document.getElementById("onExternalAppDone").innerHTML = JSON.stringify(event)
-    VK.api("messages.send", {"peer_id": 144299453, "message": "onExternalAppDone"+JSON.stringify(event), "v":"5.73"}, function (data) {
+    VK.api("messages.send", {"peer_id": -144299453, "message": "onExternalAppDone", "v":"5.73"}, function (data) {
    });
 	})
 
 VK.addCallback("onExternalAppClose", function (event) {
                 document.getElementById("onExternalAppClose").innerHTML = JSON.stringify(event)
-                VK.api("messages.send", {"peer_id": 144299453, "message": "onExternalAppClose"+JSON.stringify(event), "v":"5.73"}, function (data) {
+                VK.api("messages.send", {"peer_id": -144299453, "message": "onExternalAppClose"+JSON.stringify(event), "v":"5.73"}, function (data) {
    });
         })
 
