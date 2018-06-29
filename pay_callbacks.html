@@ -73,7 +73,7 @@ VK.addCallback("onExternalAppClose", function (event) {
                 VK.callMethod('openExternalApp', 'vkpay', {action:"pay-to-group", amount:1, description:"Test callback", group_id:144299453})
         }
 	function set() {
-        VK.callMethod("showSettingsBox", 4096);        
+        VK.callMethod("showSettingsBox", 0);        
 	}
 </script>
 <!--
