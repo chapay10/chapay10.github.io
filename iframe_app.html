@@ -11,9 +11,9 @@
     });
       VK.addCallback('onDeviceOrientation', function(abs, x, y, z)
      {
-          document.getElementById("group_id").value='OR';
+          document.getElementById("group_id").value='abs='+abs+'x='+x;
       });
-      VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
+     // VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
   }, function() { 
      // API initialization failed 
      // Can reload page here 
