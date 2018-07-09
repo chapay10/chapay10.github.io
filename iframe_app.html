@@ -5,7 +5,12 @@
 <body>
 <script type="text/javascript">
   VK.init(function() { 
-    
+    VK.addCallback('onDeviceOrientationNotSupported', function()
+    {
+        document.getElementById("group_id").value='onDeviceOrientationNotSupported';
+    });
+      VK.addCallback('onDeviceOrientation', (abs, x, y, z) => {document.getElementById("group_id").value='OR';});
+      VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
   }, function() { 
      // API initialization failed 
      // Can reload page here 
@@ -13,10 +18,8 @@
   function HandleDeviceOrientation() {
     console.log('HandleDeviceOrientation');
     
-   VK.callMethod('startHandleDeviceOrientation', 'handleOrientation'); 
-      VK.addCallback('onDeviceOrientationNotSupported', () => {document.getElementById("group_id").value='onDeviceOrientationNotSupported';});
-      VK.addCallback('onDeviceOrientation', () => {document.getElementById("group_id").value='OR';});
-      VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
+   VK.callMethod('startHandleDeviceOrientation', true, true); 
+      
   };
     
   function SettingsBox() {
