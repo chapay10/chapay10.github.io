@@ -13,7 +13,7 @@
      {
           document.getElementById("Orientation").innerHTML='abs='+abs+'<br>x='+x+'<br>y='+y+'<br>z='+z;
       });
-     // VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("Motion").value='MO';});
+      VK.addCallback('onDeviceMotion', (abs, x, y, z) => {document.getElementById("Motion").innerHTML='abs='+abs+'<br>x='+x+'<br>y='+y+'<br>z='+z;});
   }, function() { 
      // API initialization failed 
      // Can reload page here 
@@ -29,8 +29,8 @@
 <hr>
 <button onclick="HandleDeviceOrientation()" class="button">HandleDeviceOrientation</button>
 <div class="text">Group id:</div>
-    <label id="Orientation">Orientation</label>
+<label id="Orientation">Orientation</label>
 <br>
-<input type="text" value="Motion" id="group_id">
+<label id="Motion">Motion</label>
 </body>
 </html>
