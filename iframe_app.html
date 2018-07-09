@@ -13,7 +13,7 @@
   function HandleDeviceOrientation() {
     console.log('HandleDeviceOrientation');
     
-   VK.callMethod('startHandleDeviceOrientation', 'afsd', 'sadf'); 
+   VK.callMethod('startHandleDeviceOrientation', true, true); 
       VK.addCallback('onDeviceOrientationNotSupported', () => {document.getElementById("group_id").value='onDeviceOrientationNotSupported';});
       VK.addCallback('onDeviceOrientation', () => {document.getElementById("group_id").value='OR';});
       VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
