@@ -7,13 +7,13 @@
   VK.init(function() { 
     VK.addCallback('onDeviceOrientationNotSupported', function()
     {
-        document.getElementById("group_id").value='onDeviceOrientationNotSupported';
+        document.getElementById("Orientation").value='onDeviceOrientationNotSupported';
     });
       VK.addCallback('onDeviceOrientation', function(abs, x, y, z)
      {
-          document.getElementById("group_id").value='abs='+abs+'x='+x;
+          document.getElementById("Orientation").value='abs='+abs+'x='+x;
       });
-     // VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
+     // VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("Motion").value='MO';});
   }, function() { 
      // API initialization failed 
      // Can reload page here 
@@ -25,15 +25,12 @@
       
   };
     
-  function SettingsBox() {
-    console.log('Click settings');
-    VK.callMethod("showSettingsBox", 8214);
-  };
 </script>
 <hr>
 <button onclick="HandleDeviceOrientation()" class="button">HandleDeviceOrientation</button>
 <div class="text">Group id:</div>
-<input type="text" value="154090051" id="group_id">
-<button onclick="SettingsBox()" class="button">showSettingsBox</button>
+<input type="text" value="Orientation" id="Orientation">
+<br>
+<input type="text" value="Motion" id="group_id">
 </body>
 </html>
