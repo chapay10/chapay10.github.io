@@ -15,6 +15,7 @@
     
    VK.callMethod('startHandleDeviceOrientation', true, true); 
       VK.addCallback('onDeviceOrientationNotSupported', () => {console.log('onDeviceOrientationNotSupported');});
+      VK.addCallback('onDeviceOrientation', (abs, x, y, z) => {console.log('abs='+abs+' x='+x+' y='+y+' z='+z);});
   };
     
   function SettingsBox() {
