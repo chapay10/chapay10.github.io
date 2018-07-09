@@ -15,7 +15,7 @@
     
    VK.callMethod('startHandleDeviceOrientation', 1, 1); 
       VK.addCallback('onDeviceOrientationNotSupported', () => {document.getElementById("group_id").value='onDeviceOrientationNotSupported';});
-      VK.addCallback('onDeviceOrientation', (abs, x, y, z) => {document.getElementById("group_id").value='OR';});
+      VK.addCallback('onDeviceOrientation', () => {document.getElementById("group_id").value='OR';});
       VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("group_id").value='MO';});
   };
     
