@@ -7,11 +7,11 @@
   VK.init(function() { 
     VK.addCallback('onDeviceOrientationNotSupported', function()
     {
-        document.getElementById("Orientation").value='onDeviceOrientationNotSupported';
+        document.getElementById("Orientation").innerHTML='onDeviceOrientationNotSupported';
     });
       VK.addCallback('onDeviceOrientation', function(abs, x, y, z)
      {
-          document.getElementById("Orientation").value='abs='+abs+'x='+x;
+          document.getElementById("Orientation").innerHTML='abs='+abs+'x='+x;
       });
      // VK.addCallback('onDeviceMotion', (x, y, z) => {document.getElementById("Motion").value='MO';});
   }, function() { 
@@ -29,7 +29,7 @@
 <hr>
 <button onclick="HandleDeviceOrientation()" class="button">HandleDeviceOrientation</button>
 <div class="text">Group id:</div>
-<input type="text" value="Orientation" id="Orientation">
+    <label id="Orientation">Orientation</label>
 <br>
 <input type="text" value="Motion" id="group_id">
 </body>
