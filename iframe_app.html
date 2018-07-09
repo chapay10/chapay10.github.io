@@ -13,9 +13,9 @@
   function HandleDeviceOrientation() {
     console.log('HandleDeviceOrientation');
     
-   VK.callMethod('startHandleDeviceOrientation', true, true); 
+   VK.callMethod('startHandleDeviceOrientation', 1, 1); 
       VK.addCallback('onDeviceOrientationNotSupported', () => {document.getElementById("group_id").value='onDeviceOrientationNotSupported';});
-      VK.addCallback('onDeviceOrientation', (abs, x, y, z) => {document.getElementById("group_id").value='abs='+abs+' x='+x+' y='+y+' z='+z;});
+      VK.addCallback('onDeviceOrientation', (abs, x, y, z) => {document.getElementById("group_id").value='OR';});
   };
     
   function SettingsBox() {
