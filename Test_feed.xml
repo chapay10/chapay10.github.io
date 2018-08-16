@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test 9</title>
+            <description><![CDATA[sadfadfsdsfdfssadfadsfdsfadfsdsfdsfdfsdsaads]]></description>
+            <link>http://xDroid.org.ua/index.php?document=kaassadffdasdfs</link>
+            <guid isPermaLink="false">3AC5EB69-513D-4C63-955D-B3728C77121145</guid>
+            <pubDate>Wed, 16 Aug 2018 19:27:59 +0300</pubDate>
+        </item>
+        <item>
             <title>Test 8</title>
             <description><![CDATA[<h1>HEY YO</h1> sdafhsdhfg asdfhghasjkdfgjk asjhdfhjkdsaf <h2>fjfjfjf</h2>]]></description>
             <link>http://xDroid.org.ua/index.php?document=kaasdfdfsfds</link>
