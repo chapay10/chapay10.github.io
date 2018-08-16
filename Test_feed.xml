@@ -4,10 +4,6 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <lastBuildDate>Wed, 30 May 2018 16:17:16 +0700</lastBuildDate>
-        <pubDate>Wed, 30 May 2018 16:16:59 +0700</pubDate>
-        <generator>FeedForAll v2.0 (2.0.4.0) unlicensed version http://www.feedforall.com</generator>
         <item>
             <title>Test 6</title>
             <description>https://ya.ru aaaasdfdsfasdfasdfsadfsdafdsfasdffsdaasdf</description>
