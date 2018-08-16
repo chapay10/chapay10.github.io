@@ -4,6 +4,13 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+         <item>
+            <title>Test 6</title>
+            <description>https://ya.ru aaaasdfdsfasdfasdfsadfsdafdasdfasdffdsdfs</description>
+            <link>http://xDroid.org.ua/index.php?document=kak_vibrat_materinskuyu_platufff_</link>
+            <guid isPermaLink="false">3AC5EB69-513D-4C63-955D-B3728C7712a3</guid>
+            <pubDate>Wed, 16 Aug 2018 19:10:59 +0300</pubDate>
+        </item>
         <item>
             <title>Test 6</title>
             <description>https://ya.ru aaaasdfdsfasdfasdfsadfsdafdsfasdffsdaasdf</description>
