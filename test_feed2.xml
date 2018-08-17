@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test habr33</title>
+            <description><![CDATA[TEST]]></description>
+            <link>https://test.com/test12asffaadsdsasdfssadfdfsadfdfasdfdddf3ffdsdasffsdasdfsdfasd1111</link>
+            <guid isPermaLink="false">68341dsaassadfasdfdasdfasdfdsafdfsdafsdFdsdafdddddasdfsadfsdd2332d2ddsdfsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 15:32:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test habr32</title>
             <description><![CDATA[https://www.youtube.com/watch?v=8-o5OuaR8pY<br><a href="https://www.youtube.com/watch?v=8-o5OuaR8pY">https://www.youtube.com/watch?v=8-o5OuaR8pY</a>
             ]]></description>
