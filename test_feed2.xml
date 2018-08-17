@@ -4,10 +4,17 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+         <item>
+            <title>Test 1(6)</title>
+            <description>Test 5!</description>
+            <link>https://test.com/test12223fdasdfgsfgsd33asdasd</link>
+            <guid isPermaLink="false">6834F230sdfgdfsgfdg-B15F-4asdfadsfE34-A2asdf7F-B906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 12:01:49 +0300</pubDate>
+        </item>
           <item>
             <title>Test 1(5)</title>
             <description>Test 5!</description>
-            <link>https://test.com/test12223fdgsfgsd33</link>
+            <link>https://test.com/test12223fdsafdgsfgsd33</link>
             <guid isPermaLink="false">6834F230sdfgdfsgfdg-B15F-4asdfadsfE34-A27F-B906dsB5E7asfd4382</guid>
             <pubDate>Fri, 17 Aug 2018 12:00:49 +0300</pubDate>
         </item>
