@@ -4,6 +4,13 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+         <item>
+            <title>Test habr17</title>
+            <description><![CDATA[Test<br><button>showInviteBox</button>]]></description>
+            <link>https://test.com/test12223ffffff333ffadfsad223322afds3asdasd1111</link>
+            <guid isPermaLink="false">6834Fddddd111d11123adsasdfds3333dsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:25:49 +0300</pubDate>
+        </item>
         <item>
             <title>Test habr15</title>
             <description><![CDATA[Test<br><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>]]></description>
