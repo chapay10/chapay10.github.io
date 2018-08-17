@@ -10,9 +10,17 @@
         <title>Test feed</title>
          </image>
          <item>
+            <title>Test 7</title>
+            <description>Test 7!</description>
+            <link>https://habr.com/test7/</link>
+            <guid isPermaLink="false">qweqweqssdfgdffffwdfjhfdjghkldfkg</guid>
+            <pubDate>Fri, 17 Aug 2018 18:51:49 +0300</pubDate>
+        </item>
+         <item>
             <title>Test 6</title>
             <description>Test 6!</description>
             <link>https://habr.com/test6/</link>
+            <guid isPermaLink="false">qweqweqssdfgdfwdfjhfdjghkldfkg</guid>
             <pubDate>Fri, 17 Aug 2018 18:50:49 +0300</pubDate>
         </item>
          <item>
