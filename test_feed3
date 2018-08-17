@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Test feed</title>
+        <title>/title>
         <description>test test</description>
-        <link>https://habr.com</link>
+        <link>https://habr.com/</link>
         <image>
         <link>https://habr.com/</link>
              <url>https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg</url> 
-        <title>Хабр</title>
+        <title>Test feed<</title>
+         </image>
          <item>
             <title>Test 5</title>
             <description>Test 5!</description>
