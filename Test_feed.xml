@@ -5,6 +5,39 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+<title>
+<![CDATA[ Сервер в облаках: готовимся к запуску ]]>
+</title>
+<guid isPermaLink="true">https://habr.com/post/420451/</guid>
+<link>
+https://habr.com/post/420451/?utm_source=habrahabr&utm_medium=rss&utm_campaign=420451
+</link>
+<description>
+<![CDATA[
+В <a href="https://habr.com/company/ruvds/blog/418141/">посте про регату</a> мы обмолвились, что в августе всех хабражителей ждет конкурс с призами. Пришло время сорвать <s>покровы</s> завесу секретности. Как-то нам пришла мысль, что фразу «сервер в облаках» можно понять буквально. А давайте действительно запустим в небо работающий сервер, который можно будет попинговать! Сначала идея выглядела безумной, но покрутив её так и эдак, обсудив на все лады, мы всё же придумали способ отправить сервер навстречу птицам. Уже в конце августа состоится эпохальный запуск, а пока что мы отрабатываем аппаратную часть проекта. Подробности под катом.<br>
+ <br>
+ <a href="https://habr.com/company/ruvds/blog/420451/"><div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/b75/374/e31/b75374e317f4c4560e4015fb3c63b300.png"></div></a> <a href="https://habr.com/post/420451/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=420451#habracut">Читать дальше →</a>
+]]>
+</description>
+<pubDate>Fri, 17 Aug 2018 08:11:28 GMT</pubDate>
+<dc:creator>ru_vds</dc:creator>
+<category>
+<![CDATA[ Облачные сервисы ]]>
+</category>
+<category>
+<![CDATA[ Геоинформационные сервисы ]]>
+</category>
+<category>
+<![CDATA[ Блог компании RUVDS.com ]]>
+</category>
+<category>
+<![CDATA[ RUVDS ]]>
+</category>
+<category>
+<![CDATA[ регата ]]>
+</category>
+</item>
+        <item>
 		<title>Samsung официально представила Galaxy Note9 в Украине</title>
 		<link>https://keddr.com/2018/08/samsung-ofitsialno-predstavila-galaxy-note9-v-ukraine/</link>
 		<comments>https://keddr.com/2018/08/samsung-ofitsialno-predstavila-galaxy-note9-v-ukraine/#respond</comments>
