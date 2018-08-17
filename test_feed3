@@ -10,6 +10,14 @@
         <title>Test feed</title>
          </image>
          <item>
+            <title>Test 11</title>
+            <description><![CDATA[qweqwesfsdfqwe]]></description>
+            <full-text><![CDATA['';!--"<fuck>=&{()}]]></full-text>
+            <link>https://habr.com/test11/</link>
+            <guid isPermaLink="false">qweqfffweaadfsgfgdqssdfgdffffwdfjhfdjghkldfkg</guid>
+            <pubDate>Fri, 17 Aug 2018 19:41:49 +0300</pubDate>
+        </item>
+         <item>
             <title>Test 10</title>
             <description><![CDATA[qweqweqwe]]></description>
             <full-text><![CDATA[<p>Злополучные штудии на тему «молекулярной памяти воды» и других шарлатанских материй приучили просвещенную публику игнорировать научные новости, где сообщается об открытии у воды еще каких-то неизвестных науке свойств. Между тем оказалось, что настоящая наука по-прежнему на такое способна. Речь идет о транспорте ионов — свойстве воды, которое делает ее универсальным растворителем и основой жизни на планете.</p>
