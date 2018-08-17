@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Test feed</title>
+        <description>test test</description>
+        <link>https://test.com</link>
+        <item>
+            <title>Test 1</title>
+            <description>Test 1!</description>
+            <link>https://test.com/test1</link>
+            <guid isPermaLink="false">6834F230-B15F-4E34-A27F-B906B5E74382</guid>
+            <pubDate>Wed, 30 May 2018 14:41:49 +0700</pubDate>
+        </item>
+    </channel>
+</rss>
