@@ -3,9 +3,11 @@
     <channel>
         <title>Test feed</title>
         <description>test test</description>
-        <link>https://test.com</link>
+        <link>https://habr.com</link>
         <image>
+        <link>https://habr.com/</link>
              <url>https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg</url> 
+        <title>Хабр</title>
         </image>
      </channel>
 </rss>
