@@ -12,13 +12,13 @@
          <item>
             <title>Test 6</title>
             <description>Test 6!</description>
-            <link>https://habr.com/test6/,link>
+            <link>https://habr.com/test6/<link>
             <pubDate>Fri, 17 Aug 2018 18:50:49 +0300</pubDate>
         </item>
          <item>
             <title>Test 5</title>
             <description>Test 5!</description>
-            <link>https://habr.com/test5/link>
+            <link>https://habr.com/test5/<link>
             <guid isPermaLink="false">qweqweqssdfgdfwe</guid>
             <pubDate>Fri, 17 Aug 2018 17:50:49 +0300</pubDate>
         </item>
