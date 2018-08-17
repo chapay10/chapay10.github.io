@@ -4,6 +4,13 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+          <item>
+            <title>Test 1(7)</title>
+            <description>Test 7!</description>
+            <link>https://test.com/test12223fdasdfgsfgsd3asdfsdfafssdafjhdsadfsadafds3asdasd</link>
+            <guid isPermaLink="false">6834F230sdfgdfsgfdg-B15F-4asdfadsfE34-A2asdf7F-B906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 12:10:49 +0300</pubDate>
+        </item>
          <item>
             <title>Test 1(6)</title>
             <description>Test 5!</description>
