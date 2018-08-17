@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test 1(2)</title>
+            <description>Test 2!</description>
+            <link>https://test.com/test1222</link>
+            <guid isPermaLink="false">6834F230-B15F-4E34-A27F-B906B5E7asfd4382</guid>
+            <pubDate>Wed, 30 May 2018 14:42:49 +0700</pubDate>
+        </item>
+        <item>
             <title>Test 1</title>
             <description>Test 1!</description>
             <link>https://test.com/test1</link>
