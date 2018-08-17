@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Test feed</title>
+        <description>test test</description>
+        <link>https://test.com</link>
+          <item>
+            <title>Test 1(5)</title>
+            <description>Test 5!</description>
+            <link>https://test.com/test12223fdgsfgsd33</link>
+            <guid isPermaLink="false">6834F230sdfgdfsgfdg-B15F-4asdfadsfE34-A27F-B906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 12:00:49 +0300</pubDate>
+        </item>
+         <item>
+            <title>Test 1(4)</title>
+            <description>Test 4!</description>
+            <link>https://test.com/test1222333</link>
+            <guid isPermaLink="false">6834F230-B15F-4asdfadsfE34-A27F-B906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 11:59:49 +0300</pubDate>
+        </item>
+         <item>
+            <title>Test 1</title>
+            <description>Test 1!</description>
+            <link>https://test.com/test1</link>
+            <guid isPermaLink="false">6834F230-B15F-4E34-A27F-B906B5E74382</guid>
+            <pubDate>Wed, 30 May 2018 14:41:49 +0300</pubDate>
+        </item>
+    </channel>
+</rss>
