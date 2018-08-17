@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
          <item>
+            <title>Test habr18</title>
+            <description><![CDATA[Test<br><button><iframe width="728" height="410" src="https://vk.com/blog" frameborder="0"></iframe><br><iframe width="728" height="410" src="https://ya.ru" frameborder="0"></iframe>]]></description>
+            <link>https://test.com/test12223fff34fff333ffadfsad223322afds3a3sdasd1111</link>
+            <guid isPermaLink="false">6834Fdd2ddd1211d11123adsasdfds33433dsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:27:49 +0300</pubDate>
+        </item>
+         <item>
             <title>Test habr17</title>
             <description><![CDATA[Test<br><button>showInviteBox</button>]]></description>
             <link>https://test.com/test12223ffffff333ffadfsad223322afds3asdasd1111</link>
