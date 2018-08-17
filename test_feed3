@@ -8,6 +8,14 @@
         <link>https://habr.com/</link>
              <url>https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg</url> 
         <title>Хабр</title>
+         </image>
+         <item>
+            <title>Test 3</title>
+            <description>Test 3!</description>
+            <link>https://habr.com/test3/link>
+            <guid isPermaLink="false">qweqweqsasfdsfdadfwe</guid>
+            <pubDate>Fri, 17 Aug 2018 17:35:49 +0300</pubDate>
+        </item>
         </image>
          <item>
             <title>Test 2</title>
