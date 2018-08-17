@@ -4,6 +4,13 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+         <item>
+            <title>Test 1(4)</title>
+            <description>Test 4!</description>
+            <link>https://test.com/test1222333</link>
+            <guid isPermaLink="false">6834F230-B15F-4asdfadsfE34-A27F-B906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 11:59:49 +0700</pubDate>
+        </item>
         <item>
             <title>Test habr</title>
             <description><![CDATA[<img src="https://habrastorage.org/getpro/habr/post_images/02b/ac7/735/02bac7735dc2b3dc46f54af9048e6d03.jpg" alt="image"><br>
