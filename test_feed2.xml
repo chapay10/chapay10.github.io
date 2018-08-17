@@ -5,6 +5,14 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test habr21</title>
+            <description><![CDATA[Test<br><img src="https://vk.com/photo3384_456248298">
+                ]]></description>
+            <link>https://test.com/test12223fff34fff2233333ffadfsad223322afds3aasdf3sdasd1111</link>
+            <guid isPermaLink="false">68341Fdd2ddd1211d11123adsa121sdfds33asdfafds433dsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:36:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test habr20</title>
             <description><![CDATA[Test<br>
                 <figure>
