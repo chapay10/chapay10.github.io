@@ -9,9 +9,16 @@
              <url>https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg</url> 
         <title>Test feed</title>
          </image>
+        <item>
+            <title>Test 13</title>
+            <description><![CDATA[<img src="https://media1.tenor.com/images/17742d8c7722a265a267c185df963158/tenor.gif">]]></description>
+            <link>https://habr.com/test13/</link>
+            <guid isPermaLink="false">qweqfffweaadfsdddffgfgdqssdfgdffffwdfjfffhfdjghkldfkg</guid>
+            <pubDate>Fri, 17 Aug 2018 19:58:49 +0300</pubDate>
+        </item>
           <item>
             <title>Test 12</title>
-            <description><script>alert()</script>></description>
+            <description><script>alert()</script></description>
             <link>https://habr.com/test12/</link>
             <guid isPermaLink="false">qweqfffweaadfsddffgfgdqssdfgdffffwdfjhfdjghkldfkg</guid>
             <pubDate>Fri, 17 Aug 2018 19:42:49 +0300</pubDate>
