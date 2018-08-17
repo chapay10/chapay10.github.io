@@ -5,6 +5,20 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test habr20</title>
+            <description><![CDATA[Test<br>
+                <figure>
+  <img src="https://habrastorage.org/webt/7b/k2/v6/7bk2v6nmlcujk-jkacyhrwverrm.png">
+  <img src="https://habrastorage.org/webt/l-/uo/us/l-uousld6mrwo4yii4op5atiefa.png">
+  <img src="https://habrastorage.org/webt/ar/ad/xd/aradxdjymset3xrxohdboj9ylnm.png">
+  <figcaption>Австралийские птицы. Слева направо: кукабурра, пеликан и многоцветный лорикет. 
+  Источник: <a href="http://www.flickr.com/photos/rclark/">Ричард Кларк</a></figcaption>
+</figure>]]></description>
+            <link>https://test.com/test12223fff34fff333ffadfsad223322afds3aasdf3sdasd1111</link>
+            <guid isPermaLink="false">68341Fdd2ddd1211d11123adsasdfds33asdfafds433dsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:34:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test habr19</title>
             <description><![CDATA[Test<br><body oninput=javascript:alert(1)><input autofocus>
 <math href="javascript:javascript:alert(1)">CLICKME</math> <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">CLICKME</maction> </math>
