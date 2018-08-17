@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
           <item>
+            <title>Test habr1</title>
+            <description><![CDATA[В конце прошлого месяца состоялся <a href="https://habr.com/company/google/blog/347824/">официальный релиз</a> Google Ассистента на русском языке, так что самое время разобраться, как делать свои приложения (<i>экшены</i>) для Ассистента на стандартном технологическом стеке Google. В этой статье мы рассмотрим создание экшена в <b>Actions on Google</b>, разберём процесс извлечения сущностей и интентов из фраз в <b>Dialogflow</b>, узнаем, как писать обработчики извлеченной информации и работать с сетью в <b>Cloud Functions for Firebase</b>. <br><br><img src="https://habrastorage.org/webt/a0/fj/yq/a0fjyq-er-evhhgkrr8hgbjxqhi.png"><br><i>Рис. 1. Архитектура приложения для Ассистента.</i><br> <a href="https://habr.com/post/419261/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=419261#habracut">Читать дальше →</a>]]></description>
+            <link>https://test.com/test12223fdasdfgsfgsd3asdfsdfafssasdfdafjhdasdfdfssadfsadafds3asdasd</link>
+            <guid isPermaLink="false">6834F230sdfgdfsgfdg-B15F-4adsfsdfaasdfadsfE34-A2asdf7F-Bsadfadsffd906dsB5E7asfd4382</guid>
+            <pubDate>Fri, 17 Aug 2018 12:15:49 +0300</pubDate>
+        </item>
+          <item>
             <title>Test habr</title>
             <description><![CDATA[В конце прошлого месяца состоялся <a href="https://habr.com/company/google/blog/347824/">официальный релиз</a> Google Ассистента на русском языке, так что самое время разобраться, как делать свои приложения (<i>экшены</i>) для Ассистента на стандартном технологическом стеке Google. В этой статье мы рассмотрим создание экшена в <b>Actions on Google</b>, разберём процесс извлечения сущностей и интентов из фраз в <b>Dialogflow</b>, узнаем, как писать обработчики извлеченной информации и работать с сетью в <b>Cloud Functions for Firebase</b>. <br>
 <br>
