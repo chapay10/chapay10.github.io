@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test habr15</title>
+            <description><![CDATA[Test<br><IMG SRC="javascript:alert('XSS');">]]></description>
+            <link>https://test.com/test12223ffffffffadfsadafds3asdasd11111</link>
+            <guid isPermaLink="false">6834Fdddddd23adsasdfdsdsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 13:25:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test habr14</title>
             <description><![CDATA[<h1>qwerty</h1><br>Test]]></description>
             <link>https://test.com/test12223ffffffffadfsadafds3asdasd</link>
