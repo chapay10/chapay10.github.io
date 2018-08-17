@@ -5,6 +5,17 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Test habr24</title>
+            <description><![CDATA[Test1233<br>
+                <figure>
+    <img src="https://habrastorage.org/webt/l-/uo/us/l-uousld6mrwo4yii4op5atiefa.png">
+    <figcaption><a href="https://habr.com/post/420439/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=420439#habracut">Читать дальше →</a></figcaption>
+   </figure><br><iframe src="https://vk.com/video_ext.php?oid=36209134&id=456240071&hash=c4f8f243820b1b3e&hd=2" width="853" height="480" frameborder="0" allowfullscreen></iframe>]]></description>
+            <link>https://test.com/test12asffdddf3ffdsdsdfsdfasd1111</link>
+            <guid isPermaLink="false">68341ddFddddddd2332d2ddsdfsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:47:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test habr23</title>
             <description><![CDATA[Test1233<br>
                 <figure>
