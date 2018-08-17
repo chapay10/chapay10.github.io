@@ -4,6 +4,23 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+        <image>
+             <url>https://upload.wikimedia.org/wikipedia/commons/e/ec/Earth-DSCOVR-20150706-IFV.jpg</url> 
+        </image>
+            <item>
+            <title>Test habr38</title>
+            <description><![CDATA[sadfadfssfdaafsdafsdasfdfdsafdsfdsdsfdfssad]]></description>
+            <link>https://test.com/test12asfddfasadffdskjlfsadfhadsdsasdfssadfdfsadfdfassdfsddfdddf3fasdffdsdasffsdasdfsdfasd1111</link>
+            <guid isPermaLink="false">68341dddssdafsdfaassadfsadfasdfdasddsfgfasdfdsafdfsdasdfsdffsdFasdfdsdafdddddasdfsadfsdd2332d2ddsdfsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 17:09:49 +0300</pubDate>
+        </item>
+          <item>
+            <title>Test habr37</title>
+            <description><![CDATA[Музыкальное двухдневное событие Adventure The Music вновь состоится в Москве 24 и 25 августа! Знакомое событие охватит все разнообразие стилей благодаря новой концепции BASE, закладывающей основу очередного витка развития электронной сцены в стране.]]></description>
+            <link>https://test.com/test12asfddfasadffdskjlfhadsdsasdfssadfdfsadfdfassdfsddfdddf3fasdffdsdasffsdasdfsdfasd1111</link>
+            <guid isPermaLink="false">68341dddssdafsdfaassadfasdfdasddsfgfasdfdsafdfsdasdfsdffsdFasdfdsdafdddddasdfsadfsdd2332d2ddsdfsfdsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 17:03:49 +0300</pubDate>
+        </item>
          <item>
             <title>Test habr37</title>
             <description><![CDATA[Музыкальное двухдневное событие Adventure The Music вновь состоится в Москве 24 и 25 августа! Знакомое событие охватит все разнообразие стилей благодаря новой концепции BASE, закладывающей основу очередного витка развития электронной сцены в стране.]]></description>
