@@ -10,6 +10,13 @@
         <title>Хабр</title>
          </image>
          <item>
+            <title>Test 5</title>
+            <description>Test 5!</description>
+            <link>https://habr.com/test5/link>
+            <guid isPermaLink="false">qweqweqsaывdfwe</guid>
+            <pubDate>Fri, 17 Aug 2018 17:50:49 +0300</pubDate>
+        </item>
+         <item>
             <title>Test 4</title>
             <description>Test 4!</description>
             <link>https://habr.com/test4/link>
