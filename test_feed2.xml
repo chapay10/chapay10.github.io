@@ -4,12 +4,23 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+        <item>
+            <title>Test habr23</title>
+            <description><![CDATA[Test1233<br>
+                <figure>
+    <img src="https://habrastorage.org/webt/l-/uo/us/l-uousld6mrwo4yii4op5atiefa.png">
+    <figcaption><a href="https://habr.com/post/420439/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=420439#habracut">Читать дальше →</a></figcaption>
+   </figure>]]></description>
+            <link>https://test.com/test12asffdddf3sdasd1111</link>
+            <guid isPermaLink="false">68341ddFddd2332d2ddsddfad22222</guid>
+            <pubDate>Fri, 17 Aug 2018 14:45:49 +0300</pubDate>
+        </item>
          <item>
             <title>Test habr22</title>
             <description><![CDATA[Test<br>
                 <figure>
     <img src="https://habrastorage.org/webt/l-/uo/us/l-uousld6mrwo4yii4op5atiefa.png">
-    <figcaption><a href="https://habr.com/post/420439/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=420439#habracut">Читать дальше →</a>/figcaption>
+    <figcaption><a href="https://habr.com/post/420439/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=420439#habracut">Читать дальше →</a></figcaption>
    </figure>]]></description>
             <link>https://test.com/test12asffdf3sdasd1111</link>
             <guid isPermaLink="false">68341Fddd2332d2ddsddfad22222</guid>
