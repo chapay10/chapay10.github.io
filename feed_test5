@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:mi="http://schemas.ingestion.microsoft.com/common/">
+    <channel>
+        <title>Test feed</title>
+        <description>test test</description>
+        <link>https://iz.ru/</link>
+        <item>
+            <title>Test 1</title>
+            <description>Test 1!</description>
+            <link>https://iz.ru/dddd</link>
+            <guid isPermaLink="false">qweqffweqwe1</guid>
+            <pubDate>Mon, 20 Aug 2018 17:27:49 +0300</pubDate>
+        </item>
+     </channel>
+</rss>
