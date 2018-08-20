@@ -5,6 +5,13 @@
         <description>test test</description>
         <link>https://iz.ru/</link>
         <item>
+            <title>Test 2/title>
+            <description>Test 2!</description>
+            <link>https://iz.ru/dddd2</link>
+            <guid isPermaLink="false">qweqffweqwe2</guid>
+            <pubDate>Mon, 20 Aug 2018 17:29:49 +0300</pubDate>
+        </item>
+        <item>
             <title>Test 1</title>
             <description>Test 1!</description>
             <link>https://iz.ru/dddd</link>
