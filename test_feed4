@@ -3,10 +3,11 @@
     <channel>
         <title>Test feed</title>
         <description>test test</description>
+        <link>https://iz.ru/</link>
         <item>
                                     <id>6790299</id>
                                     <title>Тот еще фрукт: как отмечать Яблочный Спас</title>
-                                    <link>http://www.elle.ru/stil-zhizni/events/tot-eshe-frukt-kak-otmechat-yablochnyi-spas-id6790299/?utm_source=Microsoft&amp;utm_medium=partner&amp;utm_campaign=Стиль жизни</link>
+                                    <link>https://iz.ru/775809/mariia-nediuk/iskusstvennyi-intellekt-postavit-diagnozddddd2sdfsdf</link>
                                     <pubdate>Mon, 20 Aug 2018 12:50:20 +0300</pubdate>
                                     <media:content url="https://n1s1.elle.ru/2c/0d/86/2c0d861faf5274ed284668a9f624fe03/600x720_0xac120002_540154411534676403.jpeg">
                                     <media:credit>ELLE</media:credit>
@@ -23,7 +24,7 @@
                                <media:text>Основные традиции, меню и приметы русского праздника</media:text>
                            </link>
                            </item>
-        <link>https://iz.ru/</link>
+        
               <item>
                 <title>Искусственный интеллект поставиasdfadsfт диагноsadfз3</title>
                 <link>https://iz.ru/775809/mariia-nediuk/iskusstvennyi-intellekt-postavit-diagnozddddd3</link>
