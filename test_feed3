@@ -10,7 +10,64 @@
         <title>Test feed</title>
          </image>
          <item>
-                                    <id>67913881</id>
+                                    <id>6791388121</id>
+                                    <title>Test 21</title>
+                                    <link>https://habr.com/test21/</link>
+                                    <pubdDte>Mon, 20 Aug 2018 14:56:49 +0300</pubDate>
+                                    <media:content url="https://n1s1.elle.ru/df/79/81/df7981719b22fd5193edb564dbdd7971/600x720_0xac120002_14754208691534754925.jpeg">
+                                    <media:credit>ELLE</media:credit>
+                                    <media:title>Test 21</media:title></media:content>
+                                    <description><![CDATA[<p>Режиссер Питер Берг поделился подробностями документального фильма о певице Рианне, над которым он сейчас активно работает. Кинематографист рассказал в интервью SlashFilm о примерной дате релиза: картина появится на экранах «через полтора, может, два месяца», то есть уже этой осенью.</p><p>Питер Берг впервые рассказал об идее снять фильм в 2016 году. Тогда он заявил, что планирует сосредоточиться на личности Рианны, а не только на ее музыкальном феномене. Отметим, что Берг в прошлом уже работал со звездой — снимал Рири в боевике «Морской бой».</p><img src="https://n1s1.elle.ru/29/e8/7f/29e87f659f5428a98b5a480ec82182f8/470x313_1_9ad91635906f559b166945daaec47d74@1024x682_0xac120002_19546318691534754952.jpeg" width="470" height="313" alt="Рианна" data-has-syndication-rights="0" data-licensor-name="Google Images"/>]]></description>
+                                    <author>ELLE</author>
+                                    <dc:abstract>Режиссер рассказал о долгожданном байопике</dc:abstract>
+                                    <link rel="related" type="text/html" href="http://www.elle.ru/stil-zhizni/cinema/podrobnosti-dokumentalnogo-filma-o-rianne-id6791388/" title="Подробности документального фильма о Рианне">
+                               <media:thumbnail url="https://n1s1.elle.ru/df/79/81/df7981719b22fd5193edb564dbdd7971/600x720_0xac120002_14754208691534754925.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Подробности документального фильма о Рианне</media:title>
+                               <media:text>Режиссер рассказал о долгожданном байопике</media:text>
+                           </link><link rel="related" type="text/html" href="http://www.elle.ru/life/stars/doma-zvezd-gde-zhivut-rianna-andzhelina-dzholi-i-madonna-id6791304/" title="Дома звезд: где живут Рианна, Анджелина Джоли и Мадонна">
+                               <media:thumbnail url="https://n1s1.elle.ru/94/65/4f/94654fd12b3e29f4c2c8f4d42d54fa07/600x720_0xac120002_5229125151534537264.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Дома звезд: где живут Рианна, Анджелина Джоли и Мадонна</media:title>
+                               <media:text>Где покупают недвижимость знаменитости? В нашей подборке — виллы известных актеров, музыкантов и моделей. Часть особняков выставлена на продажу</media:text>
+                           </link><link rel="related" type="text/html" href="http://www.elle.ru/celebrities/novosty/take-chance-rianna-razygryvaet-bilety-na-svoi-diamond-ball-id6790953/" title="Take a chance: Рианна разыгрывает билеты на свой Diamond Ball">
+                               <media:thumbnail url="https://n1s1.elle.ru/1c/bf/b0/1cbfb0f157cf9dcd5111ca7b8f14a0a7/600x720_0xac120002_388993671534238512.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Take a chance: Рианна разыгрывает билеты на свой Diamond Ball</media:title>
+                               <media:text>На вечеринке будут присутствовать Исса Рэй и Дональд Гловер</media:text>
+                           </link>
+                                </item>
+         <item>
+                                    <id>679138812</id>
+                                    <title>Test 21</title>
+                                    <link>https://habr.com/test21/</link>
+                                    <pubdDte>Mon, 20 Aug 2018 14:55:49 +0300</pubDate>
+                                    <media:content url="https://n1s1.elle.ru/df/79/81/df7981719b22fd5193edb564dbdd7971/600x720_0xac120002_14754208691534754925.jpeg">
+                                    <media:credit>ELLE</media:credit>
+                                    <media:title>Test 21</media:title><mi:hasSyndicationRights>0</mi:hasSyndicationRights>
+                                   <mi:licensorName>Google Images</mi:licensorName></media:content>
+                                    <description><![CDATA[<p>Режиссер Питер Берг поделился подробностями документального фильма о певице Рианне, над которым он сейчас активно работает. Кинематографист рассказал в интервью SlashFilm о примерной дате релиза: картина появится на экранах «через полтора, может, два месяца», то есть уже этой осенью.</p><p>Питер Берг впервые рассказал об идее снять фильм в 2016 году. Тогда он заявил, что планирует сосредоточиться на личности Рианны, а не только на ее музыкальном феномене. Отметим, что Берг в прошлом уже работал со звездой — снимал Рири в боевике «Морской бой».</p><img src="https://n1s1.elle.ru/29/e8/7f/29e87f659f5428a98b5a480ec82182f8/470x313_1_9ad91635906f559b166945daaec47d74@1024x682_0xac120002_19546318691534754952.jpeg" width="470" height="313" alt="Рианна" data-has-syndication-rights="0" data-licensor-name="Google Images"/>]]></description>
+                                    <author>ELLE</author>
+                                    <dc:abstract>Режиссер рассказал о долгожданном байопике</dc:abstract>
+                                    <link rel="related" type="text/html" href="http://www.elle.ru/stil-zhizni/cinema/podrobnosti-dokumentalnogo-filma-o-rianne-id6791388/" title="Подробности документального фильма о Рианне">
+                               <media:thumbnail url="https://n1s1.elle.ru/df/79/81/df7981719b22fd5193edb564dbdd7971/600x720_0xac120002_14754208691534754925.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Подробности документального фильма о Рианне</media:title>
+                               <media:text>Режиссер рассказал о долгожданном байопике</media:text>
+                           </link><link rel="related" type="text/html" href="http://www.elle.ru/life/stars/doma-zvezd-gde-zhivut-rianna-andzhelina-dzholi-i-madonna-id6791304/" title="Дома звезд: где живут Рианна, Анджелина Джоли и Мадонна">
+                               <media:thumbnail url="https://n1s1.elle.ru/94/65/4f/94654fd12b3e29f4c2c8f4d42d54fa07/600x720_0xac120002_5229125151534537264.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Дома звезд: где живут Рианна, Анджелина Джоли и Мадонна</media:title>
+                               <media:text>Где покупают недвижимость знаменитости? В нашей подборке — виллы известных актеров, музыкантов и моделей. Часть особняков выставлена на продажу</media:text>
+                           </link><link rel="related" type="text/html" href="http://www.elle.ru/celebrities/novosty/take-chance-rianna-razygryvaet-bilety-na-svoi-diamond-ball-id6790953/" title="Take a chance: Рианна разыгрывает билеты на свой Diamond Ball">
+                               <media:thumbnail url="https://n1s1.elle.ru/1c/bf/b0/1cbfb0f157cf9dcd5111ca7b8f14a0a7/600x720_0xac120002_388993671534238512.jpeg" type="image/jpeg" />
+                               <media:credit>Elle.ru</media:credit>
+                               <media:title>Take a chance: Рианна разыгрывает билеты на свой Diamond Ball</media:title>
+                               <media:text>На вечеринке будут присутствовать Исса Рэй и Дональд Гловер</media:text>
+                           </link>
+                                </item>
+         <item>
+                                   <id>67913881</id>
                                     <title>Test 20</title>
                                     <link>https://habr.com/test20/</link>
                                     <pubdDte>Mon, 20 Aug 2018 14:49:49 +0300</pubDate>
