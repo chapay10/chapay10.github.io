@@ -5,6 +5,19 @@
         <description>test test</description>
         <link>https://iz.ru/</link>
         <item>
+      <title><![CDATA[Распределенное хранилище данных в концепции Data Lake: администрирование кластера]]></title>
+      <guid isPermaLink="true">https://habr.com/post/420781/</guid>
+      <link>https://habr.com/post/420781/?utm_campaign=420781</link>
+      <description><![CDATA[<p>Тема администрирования кластера Cloudera достаточно широка и осветить ее в рамках одной статьи не представляется возможным. В этом посте остановимся на инструкциях по решению наиболее часто встречающихся задач, связанных с кластером и установленными в него сервисами, а для более глубокого погружения рекомендую обратиться к официальной документации и форуму. Там можно найти информацию практически по любому вопросу.<br>
+</p><br>
+<img src="https://habrastorage.org/webt/3t/h3/fm/3th3fmwhhliutvsaenxpn5dnjbw.jpeg"><br> <a href="https://habr.com/post/420781/?utm_campaign=420781#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Tue, 21 Aug 2018 12:10:29 GMT</pubDate>
+      <dc:creator>JenoOvchi</dc:creator>
+      <category><![CDATA[Хранилища данных]]></category><category><![CDATA[Hadoop]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Блог компании Неофлекс]]></category>
+      <category><![CDATA[администрирование]]></category><category><![CDATA[data lake]]></category><category><![CDATA[хранилища данных]]></category>
+    </item>
+        <item>
       <title><![CDATA[Реконструкция изображения: 1 км оптоволокна, искусственная нейронная сеть и глубокое обучения]]></title>
       <guid isPermaLink="true">https://habr.com/post/420561/</guid>
       <link>https://habr.com/post/420561/?utm_campaign=420561</link>
