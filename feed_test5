@@ -4,6 +4,21 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://iz.ru/</link>
+         <item>
+      <title><![CDATA[Анатомия рекомендательных систем. Часть первая]]></title>
+      <guid isPermaLink="true">https://habr.com/post/420499/</guid>
+      <link>https://habr.com/post/420499/?utm_campaign=420499</link>
+      <description><![CDATA[Я работаю дата-саентистом в компании <a href="http://cleverdata.ru/">CleverDATA</a>. Мы занимаемся проектами в области машинного обучения, и один из наиболее частых запросов на разработку основанных на машинном обучении маркетинговых решений — это разработка рекомендательных моделей.<br>
+<br>
+В этой статье я расскажу о рекомендательных системах, постараюсь дать максимально полный обзор существующих подходов и на пальцах объясню принципы работы алгоритмов. Часть материала базируется на неплохом курсе по рекомендательным системам лаборатории <a href="https://grouplens.org/datasets/movielens/">MovieLens</a> (которая большинству знакома по одноименному датасету для тестирования рекомендаций), остальное – из личного опыта. В первой части речь пойдет о постановке задачи и будет дан обзор простых (но популярных) методов рекомендаций. В следующей статье я расскажу о более продвинутых методах и некоторых практических аспектах реализации.<br>
+<br>
+<a href="https://habr.com/company/lanit/blog/420499/"><div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/652/779/d2d/652779d2ded29db0c8412ad892d0df72.jpg"></div></a><a href="https://getwallpapersinhd.com/images/medium/a-hard_desicion-969070.jpg">Источник</a><br> <a href="https://habr.com/post/420499/?utm_campaign=420499#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Tue, 21 Aug 2018 12:02:40 GMT</pubDate>
+      <dc:creator>crazyhatter</dc:creator>
+      <category><![CDATA[Машинное обучение]]></category><category><![CDATA[Алгоритмы]]></category><category><![CDATA[Data Mining]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Блог компании ГК ЛАНИТ]]></category>
+      <category><![CDATA[ланит]]></category><category><![CDATA[cleverdata]]></category>
+    </item>
         <item>
     <title><![CDATA[Операторов связи обвинили в слишком высоких тарифах на массовые SMS-рассылки]]></title>
     <guid isPermaLink="true">https://habr.com/post/420787/</guid>
