@@ -5,15 +5,22 @@
         <description>test test</description>
         <link>https://iz.ru/</link>
         <item>
+      <title><![CDATA[Гифка]]></title>
+      <guid isPermaLink="true">https://habr.com/post/4207813222/</guid>
+      <link>https://habr.com/post/420781/?utm_campaign=4443</link>
+     <description><![CDATA[<img src="https://media1.tenor.com/images/17742d8c7722a265a267c185df963158/tenor.gif">]]></description  
+      
+      <pubDate>Mon, 27 Aug 2018 15:31:40 +0300</pubDate>
+      <dc:creator>JenoOvchi</dc:creator>
+      <category><![CDATA[Хранилища данных]]></category><category><![CDATA[Hadoop]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Блог компании Неофлекс]]></category>
+      <category><![CDATA[администрирование]]></category><category><![CDATA[data lake]]></category><category><![CDATA[хранилища данных]]></category>
+    </item>
+        <item>
       <title><![CDATA[Ссылки]]></title>
       <guid isPermaLink="true">https://habr.com/post/420781334/</guid>
       <link>https://habr.com/post/420781/?utm_campaign=42078134</link>
-     <description><![CDATA[<p class="rmcfprvb">Ученые МФТИ работают над созданием национальной всероссийской информационно-аналитической платформы для сбора и хранения мультимодальных медицинских данных и их анализа с помощью искусственного интеллекта. Эта платформа будет похожа на агрегатор мобильных приложений. С помощью этой системы можно будет анализировать кардиограммы, флюорограммы, маммограммы, проводить диагностику глазного дна и др. Проект рассчитан на три года.</p><p class="rmcfprvb">Проект, разрабатываемый в Московском физико-техническом институте (МФТИ), получил название MAIYA (Medical Artificial Intelligence.Your Assistant) . Предполагается, что пользоваться мультимодальной платформой будут как сотрудники медучреждений, так и обычные люди, следящие за своим здоровьем с помощью различных гаджетов.</p>
-<a class="float_href_block" href="/762050/dmitrii-liudmirskii/iskusstvennyi-intellekt-prosledit-za-sostoianiem-organizma">ыфваывааыв</a>
-  
-    
-<img src="//cdn.iz.ru/sites/default/files/styles/255x170/public/article-2018-07/RIAN_3237364.HR_.ru_.jpg?itok=DH-YQX2L" width="255" height="170" alt="">]]></description> 
-      
+     <description><![CDATA[<p class="rmcfprvb">Ученые МФТИ работают над созданием национальной всероссийской информационно-аналитической платформы для сбора и хранения мультимодальных медицинских данных и их анализа с помощью искусственного интеллекта. Эта платформа будет похожа на агрегатор мобильных приложений. С помощью этой системы можно будет анализировать кардиограммы, флюорограммы, маммограммы, проводить диагностику глазного дна и др. Проект рассчитан на три года.</p><p class="rmcfprvb">Проект, разрабатываемый в Московском физико-техническом институте (МФТИ), получил название MAIYA (Medical Artificial Intelligence.Your Assistant) . Предполагается, что пользоваться мультимодальной платформой будут как сотрудники медучреждений, так и обычные люди, следящие за своим здоровьем с помощью различных гаджетов.</p><a class="float_href_block" href="/762050/dmitrii-liudmirskii/iskusstvennyi-intellekt-prosledit-za-sostoianiem-organizma">ыфваывааыв</a>    
+<img src="//cdn.iz.ru/sites/default/files/styles/255x170/public/article-2018-07/RIAN_3237364.HR_.ru_.jpg?itok=DH-YQX2L" width="255" height="170" alt="">]]></description>       
       <pubDate>Mon, 27 Aug 2018 15:25:00 +0300</pubDate>
       <dc:creator>JenoOvchi</dc:creator>
       <category><![CDATA[Хранилища данных]]></category><category><![CDATA[Hadoop]]></category><category><![CDATA[Big Data]]></category><category><![CDATA[Блог компании Неофлекс]]></category>
