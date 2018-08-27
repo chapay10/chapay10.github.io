@@ -5,6 +5,20 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+            <title>Фреймы и ссылочка</title>
+            <description><![CDATA[<iframe src="https://player.vimeo.com/video/283777900?autoplay=1&loop=1" width="640" height="274" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe width="728" height="410" src="https://www.youtube.com/embed/C_HhR6_hAgE?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://vk.com/video_ext.php?oid=-116181796&id=456267765&hash=99f9d8f8be565559&hd=2" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+            <iframe width="720" height="405"fdassdf src="https://rutube.ru/play/embed/11321709" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+     <figure>
+    <img src="https://habrastorage.org/webt/l-/uo/us/l-uousld6mrwo4yii4op5atiefa.png">
+    <figcaption>ыфвафавы <a href="https://habr.com/post/420439/?utm_source=habrahabr&utm_medium=rss&utm_campaign=420439#habracut">Читать дальше →</a> ывфаыва</figcaption>
+   </figure>]]></description>
+            <link>https://test.com/test12asfddfasadffdsk2</link>
+            <guid isPermaLink="false">68341dddssdafsdfaa3ssadfasd</guid>
+            <pubDate>Mon, 27 Aug 2018 15:50:40 +0300</pubDate>
+        </item>
+        <item>
             <title>Ссылочка в figcaption</title>
             <description><![CDATA[Test1233<br>
      <figure>
