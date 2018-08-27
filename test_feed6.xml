@@ -4,6 +4,13 @@
         <title>Test feed</title>
         <description>test test</description>
         <link>https://test.com</link>
+         <item>
+            <title>Test2</title>
+            <description><![CDATA[Музыкальное двухдневное событие Adventure The Music вновь состоится в Москве 24 и 25 августа! Знакомое событие охватит все разнообразие стилей благодаря новой концепции BASE, закладывающей основу очередного витка развития электронной сцены в стране.]]></description>
+            <link>https://test.com/test12asfddfasadffdskjlfhadsdsasdfssadfdfsadfdfassdfsddfdddf3fasdffdsdasffsdasdfsdfasd111111</link>
+            <guid isPermaLink="false">68341dddssdafsdfaassadfasdfdasddsfgfasdfdsafdfsdasdfsdffsdFasdfdsdafdddddasdfsadfsdd2332d2ddsdfsfdsddfad2222222</guid>
+            <pubDate>Mon, 27 Aug 2018 15:39:40 +0300</pubDate>
+        </item>  
       <item>
             <title>Test!</title>
             <description><![CDATA[Музыкальное двухдневное событие Adventure The Music вновь состоится в Москве 24 и 25 августа! Знакомое событие охватит все разнообразие стилей благодаря новой концепции BASE, закладывающей основу очередного витка развития электронной сцены в стране.]]></description>
