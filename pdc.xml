@@ -1,294 +1,2084 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>
+      Горячие интервью (звук) | Эхо Москвы
+    </title>
+    <link>https://echo.msk.ru/interview/</link>
+    <atom:link
+      href="https://echo.msk.ru/interview/rss-audio.xml %>"
+      rel="self"
+      type="application/rss+xml"
+    />
+    <description>
+      Эхо Москвы: Интервью
+    </description>
+    <image>
+      <title>Горячие интервью (звук) | Эхо Москвы</title>
+      <link>https://echo.msk.ru/interview/</link>
+      <url>https://echo.msk.ru/img/sys/logo_print.gif</url>
+      <width>121</width>
+      <height>80</height>
+    </image>
+    <managingEditor>info@echo.msk.ru (Эхо Москвы)</managingEditor>
+<language>ru-ru</language>
+<copyright></copyright>
+<lastBuildDate>Wed, 12 Sep 2018 16:25:36 +0300</lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+  <itunes:explicit>No</itunes:explicit>
+  <itunes:owner>
+  <itunes:name>Эхо Москвы</itunes:name>
+  <itunes:email>info@echo.msk.ru</itunes:email>
+  </itunes:owner>
+<ttl>1440</ttl>
+      <item>
+  <title>
+    Интервью : Евстратий
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276728-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2977974.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/824008-echo/&quot;&gt;Евстратий&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/13050/&quot;&gt;Сакен Аймурзаев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;
 
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">     
-    <channel>      
-        <title>Аудионовости - Радио Свобода</title>     
-        <link>https://www.svoboda.org/archive/ru_news_zone/latest/17/17.html</link>
-        <itunes:image href="https://gdb.rferl.org/0FE5505E-4212-4C6C-B8E1-2D53D436F365.jpg" />
-        <itunes:summary>Независимые новости из России и со всего мира</itunes:summary>
-        <description>Независимые новости из России и со всего мира</description>
-        <itunes:explicit>no</itunes:explicit>
-        <language>ru</language>
-        <copyright>Радио Свобода &amp;#169; 2010 RFE/RL, Inc. | Все права защищены. </copyright>   
-        <ttl>60</ttl>        
-        <lastBuildDate>Wed, 12 Sep 2018 16:13:35 +0300</lastBuildDate> 
-        <generator>Радио Свобода</generator>        
-          <itunes:author>RFE/RL</itunes:author>
-                    <itunes:owner>
-                        <itunes:name>Радио Свобода</itunes:name>
-                        <itunes:email>RuHomePage@rferl.org</itunes:email>
-                    </itunes:owner><itunes:category text="News &amp; Politics"/>
-                <atom:link href="https://www.svoboda.org/podcast/?count=20&amp;zoneId=17" rel="self" type="application/rss+xml" />
-                <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458655.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 16:20:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-130000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-    		<item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458655.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 16:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-130000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458630.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 15:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-120000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458616.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 14:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-110000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458594.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 13:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-100000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458579.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 12:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-090000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458557.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 11:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-080000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458545.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 10:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-070000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>События минувшего дня - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: итоговый выпуск</description>
-            <guid>https://www.svoboda.org/a/29458440.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 01:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: итоговый выпуск</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/C6A8590C-502F-4711-ADBF-522E180D2B5D_w640_h360.png" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-220000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 12 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29458422.html</guid>            
-            <pubDate>Wed, 12 Sep 2018 00:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-210000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456909.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 23:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-200000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456906.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 22:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-190000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456889.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 21:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-180000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456862.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 20:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-170000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456826.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 19:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-160000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456749.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 18:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-150000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456676.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 17:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-140000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456663.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 16:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-130000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456641.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 15:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-120000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456627.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 14:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-110000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        <item>
-            <title>Новости - 11 Сентябрь, 2018</title>
-            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
-            <guid>https://www.svoboda.org/a/29456604.html</guid>            
-            <pubDate>Tue, 11 Sep 2018 13:00:00 +0300</pubDate>
-            
-                <itunes:author>RFE/RL</itunes:author>
-                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
-                <itunes:duration>00:05:00</itunes:duration>
-                      
-                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
-                <enclosure url="https://audio.rferl.org/RU/2018/09/11/20180911-100000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
-        </item>		
-        </channel></rss>
+СЛУШАТЬ&amp;gt;&amp;gt;&amp;gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1605.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1605.mp3"
+      length="9067566" type="audio/mpeg"/>
+    <itunes:duration>37:46</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 16:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Персонально ваш : Александр Баунов
+  </title>
+  <link>https://echo.msk.ru/programs/personalnovash/2276100-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1163478.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/14518/&quot;&gt;Александр Баунов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/610285-echo/&quot;&gt;Алексей Соломин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-personalnovash-1505.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-personalnovash-1505.mp3"
+      length="10000888" type="audio/mpeg"/>
+    <itunes:duration>41:40</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 15:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Гараж : Сергей Асланян
+  </title>
+  <link>https://echo.msk.ru/programs/garage/2276096-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-1231-picture-Asla.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/1639/&quot;&gt;Сергей Асланян&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-garage-1405.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-garage-1405.mp3"
+      length="8210439" type="audio/mpeg"/>
+    <itunes:duration>34:12</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 14:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Капитал, Карл! : Тамаз Мчедлидзе
+  </title>
+  <link>https://echo.msk.ru/programs/kapital/2276632-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/824002-echo/&quot;&gt;Тамаз Мчедлидзе&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/808384-echo/&quot;&gt;Дмитрий Гаврилов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/817308-echo/&quot;&gt;Дмитрий Грозный&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1226.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1226.mp3"
+      length="16793763" type="audio/mpeg"/>
+    <itunes:duration>35:09</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 12:26:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Вспоминая будущее: Год 1918 – начало Гражданской войны (Адмирал Александр Колчак. Часть 2)
+
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276628-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2972482.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823918-echo/&quot;&gt;Никита Кузнецов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/4790/&quot;&gt;Лев Гольдштейн&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1205.mp3"
+      length="4765331" type="audio/mpeg"/>
+    <itunes:duration>09:58</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 12:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Особое мнение
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2276626-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/814712-echo/&quot;&gt;Андрей Константинов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/808384-echo/&quot;&gt;Дмитрий Гаврилов&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-osoboe-1105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-osoboe-1105.mp3"
+      length="17511571" type="audio/mpeg"/>
+    <itunes:duration>36:39</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 11:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Говорим по-татарски : Изъян
+  </title>
+  <link>https://echo.msk.ru/programs/speaktatar/2276588-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2964126.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/813084-echo/&quot;&gt;Максим Курников&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/823986-echo/&quot;&gt;Лилиана Сафина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-speaktatar-1033.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-speaktatar-1033.mp3"
+      length="193050" type="audio/mpeg"/>
+    <itunes:duration>00:48</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 10:33:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Живой Гвоздь
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2276192-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/824000-echo/&quot;&gt;Вадим Дуда&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0935.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0935.mp3"
+      length="5920565" type="audio/mpeg"/>
+    <itunes:duration>24:40</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 09:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Максим Кадаков
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2276198-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/8740/&quot;&gt;Максим Кадаков&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0920.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0920.mp3"
+      length="1338688" type="audio/mpeg"/>
+    <itunes:duration>05:34</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 09:20:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Маша Майерс, Алексей Нарышкин
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2276092-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-6928-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0805.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-razvorot-morning-0805.mp3"
+      length="39015200" type="audio/mpeg"/>
+    <itunes:duration>2:42:33</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 08:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    120 минут классики рока   : Hawkwind, ч.4; Малоизвестные группы, ч.91
+  </title>
+  <link>https://echo.msk.ru/programs/brother/2275426-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-580-picture-0.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/643/&quot;&gt;Владимир Ильинский&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/671259-echo/&quot;&gt;Михаил Кузищев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-classicrock-0105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-classicrock-0105.mp3"
+      length="202179240" type="audio/mpeg"/>
+    <itunes:duration>3:30:36</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 01:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Один : Алексей Соломин
+  </title>
+  <link>https://echo.msk.ru/programs/odin/2275424-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2508552.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/610285-echo/&quot;&gt;Алексей Соломин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-odin-2305.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-odin-2305.mp3"
+      length="25162128" type="audio/mpeg"/>
+    <itunes:duration>1:44:50</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 23:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Выбор ясен : Три события в жизни
+  </title>
+  <link>https://echo.msk.ru/programs/vyboryasen/2275420-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/914700.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/528/&quot;&gt;Ольга Журавлева&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/85/&quot;&gt;Евгений Ясин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-vybor-2205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-vybor-2205.mp3"
+      length="11180942" type="audio/mpeg"/>
+    <itunes:duration>46:35</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 22:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Статус : Екатерина Шульман
+  </title>
+  <link>https://echo.msk.ru/programs/status/2275418-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2314270.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/813956-echo/&quot;&gt;Екатерина Шульман&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/815860-echo/&quot;&gt;Майкл Наки&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Никогда не уменьшайте значение пресс-секретарей. Стоило Александру Хинштейну увлечься избирательной кампанией, как немедленно оставшийся без его попечения глава Росгвардии решил выйти на публичную арену…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-status-2105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-status-2105.mp3"
+      length="11517855" type="audio/mpeg"/>
+    <itunes:duration>47:59</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 21:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    В круге СВЕТА : Беженцы в Германии. По итогам поездки в Берлин
+  </title>
+  <link>https://echo.msk.ru/programs/sorokina/2275414-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1283722.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/12/&quot;&gt;Сергей Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8924/&quot;&gt;Юрий Кобаладзе&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/4621/&quot;&gt;Светлана Сорокина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Европейская солидарность очень важна, это то, что больше всего, кстати говоря, огорчает Германию…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-krug_sveta-2005.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-krug_sveta-2005.mp3"
+      length="11637503" type="audio/mpeg"/>
+    <itunes:duration>48:29</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 20:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Евгения Альбац
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2275412-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2429344.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/7/&quot;&gt;Евгения Альбац&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/813084-echo/&quot;&gt;Максим Курников&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Прозвучавшая угроза – всем, кто не сторонник режима Путина, кто критикует власть, позволяет себе считать, что Путин не царь и что 18 лет у власти – это слишком много и ни к чему хорошему не приводит…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1908.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1908.mp3"
+      length="8371876" type="audio/mpeg"/>
+    <itunes:duration>34:52</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 19:08:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Рикошет : Обращение Золотова с субтитрами ФБК
+  </title>
+  <link>https://echo.msk.ru/programs/rikoshet/2276032-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2432726.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/807998-echo/&quot;&gt;Георгий Албуров&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Угрозы Золотова, конечно, надо оценивать очень серьезно, потому что он может их воплотить, он имеет бандитский опыт, чтобы их воплотить…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-rikoshet-1835.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-rikoshet-1835.mp3"
+      length="3129313" type="audio/mpeg"/>
+    <itunes:duration>13:02</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 18:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Реплика Ореха : Дуэль!
+  </title>
+  <link>https://echo.msk.ru/programs/repl/2276154-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-9-picture-000.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/13/&quot;&gt;Антон Орехъ&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Перешагнуть и вытереть ноги – это и есть реальность нашей жизни. И угроза обращена не только к Навальному, а вообще ко всем желающим совать свой нос в золотовские делишки и вообще лезть, куда не просят…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-reploreh-1815.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-reploreh-1815.mp3"
+      length="654296" type="audio/mpeg"/>
+    <itunes:duration>02:43</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 18:15:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Большое «Эхо» : Ирина Меркулова
+  </title>
+  <link>https://echo.msk.ru/programs/bigecho/2276158-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/823746.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/46/&quot;&gt;Ирина Меркулова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-bigecho-1800.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-bigecho-1800.mp3"
+      length="7283199" type="audio/mpeg"/>
+    <itunes:duration>30:20</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 18:00:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Константин Эггерт
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2275410-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/ppl-4477-img1.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/4477/&quot;&gt;Константин Эггерт&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Любое насилие означает нестабильность. Любое массовое насилие это всегда нестабильность…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1715.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1715.mp3"
+      length="6268810" type="audio/mpeg"/>
+    <itunes:duration>26:07</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 17:15:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Владимир Варфоломеев
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2276124-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2710716.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/27/&quot;&gt;Владимир Варфоломеев&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Действия Навального влияют на страну, влияют, если угодно, на вектор движения страны…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1708.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1708.mp3"
+      length="2404046" type="audio/mpeg"/>
+    <itunes:duration>10:00</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 17:08:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Курилки в аэропортах
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2276050-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-6928-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9847/&quot;&gt;Евгений Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1640.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1640.mp3"
+      length="1252677" type="audio/mpeg"/>
+    <itunes:duration>05:13</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 16:40:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Дело Скрипалей. Продолжение
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2275392-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1052138.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/11236/&quot;&gt;Антонина Самсонова&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9847/&quot;&gt;Евгений Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1635.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1635.mp3"
+      length="2920543" type="audio/mpeg"/>
+    <itunes:duration>12:10</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 16:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : О заявлении Виктора Золотова
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276074-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1185484.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/369/&quot;&gt;Михаил Ходорковский&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/820044-echo/&quot;&gt;Сергей Оспищев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Распустились. Это мы с вам им позволили распуститься, мы – российский народ…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1619.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1619.mp3"
+      length="284360" type="audio/mpeg"/>
+    <itunes:duration>01:11</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 16:19:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Кредиты для населения
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2276048-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2977460.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823996-echo/&quot;&gt;Владимир Шикин&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9847/&quot;&gt;Евгений Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1615.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1615.mp3"
+      length="2393810" type="audio/mpeg"/>
+    <itunes:duration>09:58</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 16:15:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Дуэль Золотова и Навального
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2275390-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-6928-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9847/&quot;&gt;Евгений Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1605.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-1605.mp3"
+      length="3347279" type="audio/mpeg"/>
+    <itunes:duration>13:56</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 16:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Персонально ваш : Ева Меркачева
+  </title>
+  <link>https://echo.msk.ru/programs/personalnovash/2275388-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1804366.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/811776-echo/&quot;&gt;Ева Меркачева&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9847/&quot;&gt;Евгений Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Не думаю, что это угроза, обычно такие люди не угрожают публично, они просто принимают меры, у них полно власти, полномочий и возможностей. В данном случае произошел некий диалог. Я такое приветствую…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-personalnovash-1505.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-personalnovash-1505.mp3"
+      length="10147487" type="audio/mpeg"/>
+    <itunes:duration>42:16</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 15:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Гараж : Военно-техническое общество
+  </title>
+  <link>https://echo.msk.ru/programs/garage/2275384-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/13678/&quot;&gt;Алексей Мигалин&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/1639/&quot;&gt;Сергей Асланян&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-garage-1405.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-garage-1405.mp3"
+      length="8033642" type="audio/mpeg"/>
+    <itunes:duration>33:28</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 14:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Религиозная ситуация в Азербайджане
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2275572-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823992-echo/&quot;&gt;Этибар Наджафов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/563991-echo/&quot;&gt;Андрей Белькевич&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Азербайджан – многонациональное, многоконфессиональное государство.  И мультикультурализм здесь – официальная политика. Азербайджан в этом смысле – одно из немногих государств мира…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1317.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1317.mp3"
+      length="4719714" type="audio/mpeg"/>
+    <itunes:duration>19:39</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 13:17:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Свободный формат. Транспортная инфраструктура Петербурга: выделенные дорожки для велосипедов, платные парковки для автомобилей
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276066-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/821374-echo/&quot;&gt;Дарья Табачникова&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/823994-echo/&quot;&gt;Дарья Фазлетдинова&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/820118-echo/&quot;&gt;Александра Петровская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1313.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1313.mp3"
+      length="17129475" type="audio/mpeg"/>
+    <itunes:duration>35:51</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 13:13:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Колыбельная. Программа Юлии Демиденко и Льва Лурье к столетию   Октябрьской революции
+
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276004-echo/</link>
+  <description>
+    
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/817634-echo/&quot;&gt;Юлия Демиденко&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/814302-echo/&quot;&gt;Лев Лурье&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1212.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-beseda-1212.mp3"
+      length="4780099" type="audio/mpeg"/>
+    <itunes:duration>10:00</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 12:12:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    По-русски говоря… : Ольга Северская
+  </title>
+  <link>https://echo.msk.ru/programs/russian/2275924-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2911494.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/33/&quot;&gt;Ольга Северская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-russian-1154.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-russian-1154.mp3"
+      length="492035" type="audio/mpeg"/>
+    <itunes:duration>02:02</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 11:54:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Цифра : Яков Широков, Яна Розова
+  </title>
+  <link>https://echo.msk.ru/programs/communications/2275922-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2505776.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/14039/&quot;&gt;Яков Широков&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/11331/&quot;&gt;Яна Розова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-communications-1152.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-communications-1152.mp3"
+      length="1200564" type="audio/mpeg"/>
+    <itunes:duration>05:00</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 11:52:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Зверсовет : Яна Розова
+  </title>
+  <link>https://echo.msk.ru/programs/animal/2275920-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-9229-picture-rozova.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/11331/&quot;&gt;Яна Розова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-animal-1152.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-animal-1152.mp3"
+      length="676021" type="audio/mpeg"/>
+    <itunes:duration>02:48</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 11:52:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Особое мнение СПб
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2276024-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2363600.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/814500-echo/&quot;&gt;Сергей Цыпляев&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/820118-echo/&quot;&gt;Александра Петровская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1111.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-osoboe-1111.mp3"
+      length="16779411" type="audio/mpeg"/>
+    <itunes:duration>35:07</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 11:11:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Говорим по-татарски : Барыш
+  </title>
+  <link>https://echo.msk.ru/programs/speaktatar/2275894-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2964126.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/813084-echo/&quot;&gt;Максим Курников&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/823986-echo/&quot;&gt;Лилиана Сафина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-speaktatar-1051.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-speaktatar-1051.mp3"
+      length="179721" type="audio/mpeg"/>
+    <itunes:duration>00:44</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 10:51:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Люся Штейн
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2275266-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2845394.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/820538-echo/&quot;&gt;Люся Штейн&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-morning-0935.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-morning-0935.mp3"
+      length="5360918" type="audio/mpeg"/>
+    <itunes:duration>22:20</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 09:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Маша Майерс, Алексей Нарышкин
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2275378-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-6928-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Слушать…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-morning-0805.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-razvorot-morning-0805.mp3"
+      length="38672683" type="audio/mpeg"/>
+    <itunes:duration>2:41:08</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 08:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Хранитель снов : Игорь и Юджин
+  </title>
+  <link>https://echo.msk.ru/programs/dream/2274812-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1151574.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/10605/&quot;&gt;Игорь и Юджин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-dream-0105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-dream-0105.mp3"
+      length="101431423" type="audio/mpeg"/>
+    <itunes:duration>1:45:39</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 01:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Битловский час : Владимир Ильинский
+  </title>
+  <link>https://echo.msk.ru/programs/beatles/2274790-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-580-picture-0.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/643/&quot;&gt;Владимир Ильинский&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-11-beatles-0005.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-11-beatles-0005.mp3"
+      length="51374966" type="audio/mpeg"/>
+    <itunes:duration>53:30</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Tue, 11 Sep 2018 00:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Футбольный клуб : Сергей Бунтман, Василий Уткин
+  </title>
+  <link>https://echo.msk.ru/programs/footbal/2274778-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1283722.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/12/&quot;&gt;Сергей Бунтман&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/2297/&quot;&gt;Василий Уткин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-football-2305.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-football-2305.mp3"
+      length="11697477" type="audio/mpeg"/>
+    <itunes:duration>48:44</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 23:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Арсенал : Армии стран Магриба и Египта
+  </title>
+  <link>https://echo.msk.ru/programs/arsenal/2274776-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;33&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-1745-picture-0.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/2303/&quot;&gt;Руслан Пухов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-arsenal-2205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-arsenal-2205.mp3"
+      length="10898755" type="audio/mpeg"/>
+    <itunes:duration>45:24</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 22:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разбор полета : Татьяна Лазарева
+  </title>
+  <link>https://echo.msk.ru/programs/razbor_poleta/2274348-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-7640-picture-004.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/9624/&quot;&gt;Татьяна Лазарева&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/814670-echo/&quot;&gt;Станислав Крючков&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9877/&quot;&gt;Марина Максимова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Я же была «пятая колонна». Причем что интересно, у вас же недавно висел мой портрет напротив, на «Доме книги». Где там вешают нас всех — Макаревич, кто там еще? В общем, гоп-компания…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razbor_poleta-2107.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razbor_poleta-2107.mp3"
+      length="12459810" type="audio/mpeg"/>
+    <itunes:duration>51:54</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 21:07:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Полный Альбац : Москва, Лондон, далее везде…
+  </title>
+  <link>https://echo.msk.ru/programs/albac/2274774-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1324274.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/501/&quot;&gt;Андрей Колесников&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/660648-echo/&quot;&gt;Михаил Виноградов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/502194-echo/&quot;&gt;Дмитрий Гудков&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/7/&quot;&gt;Евгения Альбац&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Андрей Колесников: Путин впервые оказался не просто флагом и символом, но живой плотью, который ошибся и таким извиняющимся тоном разговаривал с нацией по время своего выступления по поводу реформы.  Он почти как Сталин…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-albac-2005.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-albac-2005.mp3"
+      length="11877402" type="audio/mpeg"/>
+    <itunes:duration>49:29</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 20:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Владимир Рыжков
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2274346-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/958540.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/22/&quot;&gt;Владимир Рыжков&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/72/&quot;&gt;Ольга Бычкова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Как совместить демократическую Конституцию, которая, слава богу, не отменена, и политическую необходимость всегда побеждать? Для этого изобретен огромный арсенал замечательных изощренных методов…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1908.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1908.mp3"
+      length="8338439" type="audio/mpeg"/>
+    <itunes:duration>34:44</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 19:08:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Рикошет : Есть ли правда в объективе?
+  </title>
+  <link>https://echo.msk.ru/programs/rikoshet/2275336-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2977046.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/793270-echo/&quot;&gt;Илья Варламов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/819756-echo/&quot;&gt;Давид Френкель&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Желательно смотреть фото в оригинале, часто фотограф прилагает какие-то пояснения, комментарии…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-rikoshet-1835.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-rikoshet-1835.mp3"
+      length="3103295" type="audio/mpeg"/>
+    <itunes:duration>12:55</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 18:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Реплика Ореха : Власть как дура
+  </title>
+  <link>https://echo.msk.ru/programs/repl/2275456-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-9-picture-000.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/13/&quot;&gt;Антон Орехъ&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;И понятно, что дальше будет только хуже. Пенсии не будет. Рубль падает. Доходы падают. Экономика встала. Для радости поводов нет, а для недовольства всё больше. И всё больше поводов для радикализации…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-reploreh-1807.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-reploreh-1807.mp3"
+      length="728157" type="audio/mpeg"/>
+    <itunes:duration>03:02</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 18:07:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Большое «Эхо» : Марина Старостина
+  </title>
+  <link>https://echo.msk.ru/programs/bigecho/2275460-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-232-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/273/&quot;&gt;Марина Старостина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-bigecho-1800.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-bigecho-1800.mp3"
+      length="7112358" type="audio/mpeg"/>
+    <itunes:duration>29:38</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 18:00:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Антон Красовский
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2274344-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2279894.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/700440-echo/&quot;&gt;Антон Красовский&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Люди выдумают бесконечное количество версий, одна другой смешнее, страннее и гаже. Люди пытаются найти хоть какое-то логическое объяснение всему этому аду, который сейчас происходит…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1708.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1708.mp3"
+      length="8525999" type="audio/mpeg"/>
+    <itunes:duration>35:31</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 17:08:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Вадим Кумин
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2274770-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2957106.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823482-echo/&quot;&gt;Вадим Кумин&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/72/&quot;&gt;Ольга Бычкова&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/814670-echo/&quot;&gt;Станислав Крючков&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1635.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1635.mp3"
+      length="4517774" type="audio/mpeg"/>
+    <itunes:duration>18:49</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 16:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : ФСБ задержала взрывника из ИГИЛ (запрещена в РФ)
+Ограничение показа иностранного кино в российских кинотеатрах 
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2275366-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/786678.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/72/&quot;&gt;Ольга Бычкова&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/814670-echo/&quot;&gt;Станислав Крючков&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1620.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1620.mp3"
+      length="2841549" type="audio/mpeg"/>
+    <itunes:duration>11:50</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 16:20:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот : Протестные акции в российских городах. Как это было
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot/2274768-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2719592.JPG&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/795314-echo/&quot;&gt;Борис Вишневский&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/72/&quot;&gt;Ольга Бычкова&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/814670-echo/&quot;&gt;Станислав Крючков&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1605.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-1605.mp3"
+      length="2885748" type="audio/mpeg"/>
+    <itunes:duration>12:01</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 16:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Персонально ваш : Александр Кынев
+  </title>
+  <link>https://echo.msk.ru/programs/personalnovash/2274342-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2683058.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/14090/&quot;&gt;Александр Кынев&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/814670-echo/&quot;&gt;Станислав Крючков&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/72/&quot;&gt;Ольга Бычкова&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Есть масса стран, которые десятилетиями живут в нищете, и власть вполне стабильна, потому что, наоборот, никакой оппозиции, нет бизнеса, который способен вкладываться в политику…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-personalnovash-1508.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-personalnovash-1508.mp3"
+      length="9874351" type="audio/mpeg"/>
+    <itunes:duration>41:08</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 15:08:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Гараж : Что происходит на авторынке?
+  </title>
+  <link>https://echo.msk.ru/programs/garage/2274766-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-1231-picture-Asla.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/1639/&quot;&gt;Сергей Асланян&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-garage-1410.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-garage-1410.mp3"
+      length="8156732" type="audio/mpeg"/>
+    <itunes:duration>33:59</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 14:10:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Стрелок : Сергей Асланян
+  </title>
+  <link>https://echo.msk.ru/programs/strelok/2274752-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-1231-picture-Asla.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/1639/&quot;&gt;Сергей Асланян&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-strelok-1305.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-strelok-1305.mp3"
+      length="7036707" type="audio/mpeg"/>
+    <itunes:duration>29:19</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 13:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Свободный формат
+Обратная сторона свободы в интернете 
+
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2275332-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823988-echo/&quot;&gt;Синтия Лоуэн&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/594724-echo/&quot;&gt;Татьяна Троянская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-beseda-1305.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-beseda-1305.mp3"
+      length="17373667" type="audio/mpeg"/>
+    <itunes:duration>36:21</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 13:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Интервью : Для самых больших:  Как обеспечить безопасность ребенка в Интернете?
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2275330-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823466-echo/&quot;&gt;Александр Литреев&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/820118-echo/&quot;&gt;Александра Петровская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-beseda-1205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-beseda-1205.mp3"
+      length="6260435" type="audio/mpeg"/>
+    <itunes:duration>13:06</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 12:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Говорим по-татарски : Максим Курников, Лилиана Сафина
+  </title>
+  <link>https://echo.msk.ru/programs/speaktatar/2275200-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2964126.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/813084-echo/&quot;&gt;Максим Курников&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/823986-echo/&quot;&gt;Лилиана Сафина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-speaktatar-1114.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-speaktatar-1114.mp3"
+      length="202663" type="audio/mpeg"/>
+    <itunes:duration>00:50</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 11:14:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Особое мнение : Особое мнение
+  </title>
+  <link>https://echo.msk.ru/programs/personalno/2275328-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/818038-echo/&quot;&gt;Григорий Михнов-Вайтенко&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/594724-echo/&quot;&gt;Татьяна Троянская&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-osoboe-1105.mp3"
+      length="16952883" type="audio/mpeg"/>
+    <itunes:duration>35:29</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 11:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Живой гвоздь
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2274340-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/995402.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/11767/&quot;&gt;Алексей Шапошников&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-morning-0935.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-morning-0935.mp3"
+      length="5914087" type="audio/mpeg"/>
+    <itunes:duration>24:38</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 09:35:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Разворот (утренний) : Маша Майерс, Алексей Нарышкин
+  </title>
+  <link>https://echo.msk.ru/programs/razvorot-morning/2274738-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;43&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-6928-picture.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8840/&quot;&gt;Маша Майерс&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-morning-0805.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-razvorot-morning-0805.mp3"
+      length="53459347" type="audio/mpeg"/>
+    <itunes:duration>3:42:44</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 08:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Весь этот блюз : Андрей Евдокимов
+  </title>
+  <link>https://echo.msk.ru/programs/blues/2274338-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-7828-thumb-0.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9853/&quot;&gt;Андрей Евдокимов&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-blues-0203.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-blues-0203.mp3"
+      length="13796984" type="audio/mpeg"/>
+    <itunes:duration>57:29</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 02:03:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Золотая полка : Петр Мамонов
+  </title>
+  <link>https://echo.msk.ru/programs/zoloto/2274336-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/1352139.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/12292/&quot;&gt;Петр Мамонов&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-10-zoloto-0103.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-10-zoloto-0103.mp3"
+      length="13748607" type="audio/mpeg"/>
+    <itunes:duration>57:17</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Mon, 10 Sep 2018 01:03:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Информационный канал : Алексей Венедиктов
+  </title>
+  <link>https://echo.msk.ru/programs/newsnews/2273666-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/680010.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/venediktov/&quot;&gt;Алексей Венедиктов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9921/&quot;&gt;Татьяна Фельгенгауэр&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/820702-echo/&quot;&gt;Олег Овчаренко&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/813066-echo/&quot;&gt;Гор Мелконян&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/819282-echo/&quot;&gt;Иван Штейнерт&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/813084-echo/&quot;&gt;Максим Курников&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/12/&quot;&gt;Сергей Бунтман&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/528/&quot;&gt;Ольга Журавлева&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Мы будем вести параллельный подсчет протоколов, все наши наблюдатели, а у нас 99,6% закрыто нашими наблюдателям общественной платы…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-newsnews-2205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-newsnews-2205.mp3"
+      length="38822401" type="audio/mpeg"/>
+    <itunes:duration>2:41:45</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 22:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Точка : Чего ждать от Apple? 
+  </title>
+  <link>https://echo.msk.ru/programs/tochka/2273838-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2930002.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/807690-echo/&quot;&gt;Валентин  Wylsacom Петухов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/689243-echo/&quot;&gt;Павел Кушелев&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/52/&quot;&gt;Александр Плющев&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/809336-echo/&quot;&gt;Сергей Оселедько&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-tochka-2106.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-tochka-2106.mp3"
+      length="12613430" type="audio/mpeg"/>
+    <itunes:duration>52:33</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 21:06:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Цена Революции : Российская церковь на пути к Поместному собору 1917-18 годов
+  </title>
+  <link>https://echo.msk.ru/programs/cenapobedy/2270746-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823946-echo/&quot;&gt;Михаил Бабкин&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/806324-echo/&quot;&gt;Михаил Соколов&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-cenapobedy-2005.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-cenapobedy-2005.mp3"
+      length="11941206" type="audio/mpeg"/>
+    <itunes:duration>49:45</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 20:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Ганапольское. Итоги без Евгения Киселева : Станислав Белковский
+  </title>
+  <link>https://echo.msk.ru/programs/ganapolskoe_itogi/2273124-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2403718.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/8025/&quot;&gt;Станислав Белковский&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/610285-echo/&quot;&gt;Алексей Соломин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Опыт, накопленный за последние 18 лет, показывает, что  люди хорошо понимают удар по морде…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-ganapolskoe_itogi-1905.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-ganapolskoe_itogi-1905.mp3"
+      length="11335751" type="audio/mpeg"/>
+    <itunes:duration>47:13</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 19:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Телехранитель : Новый сезон канала RTVI
+  </title>
+  <link>https://echo.msk.ru/programs/tv/2273834-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/element-8841-thumb-0.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/10919/&quot;&gt;Алексей Пивоваров&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/12338/&quot;&gt;Тихон Дзядко&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/9094/&quot;&gt;Елена Афанасьева&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-tv-1813.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-tv-1813.mp3"
+      length="9858235" type="audio/mpeg"/>
+    <itunes:duration>41:04</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 18:13:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Що там у них : Алексей Соломин, Алексей Нарышкин, Сакен Аймурзаев
+  </title>
+  <link>https://echo.msk.ru/programs/sho_tam/2273086-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2508552.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/610285-echo/&quot;&gt;Алексей Соломин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/717722-echo/&quot;&gt;Алексей Нарышкин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/13050/&quot;&gt;Сакен Аймурзаев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-sho_tam-1705.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-sho_tam-1705.mp3"
+      length="11417546" type="audio/mpeg"/>
+    <itunes:duration>47:34</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 17:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Местные : Вильнюс. Стоит ли русским ехать в литовскую столицу?
+  </title>
+  <link>https://echo.msk.ru/programs/mestnye/2274332-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2280910.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/701872-echo/&quot;&gt;Алексей Голубев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-mestnye-1605.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-mestnye-1605.mp3"
+      length="10986422" type="audio/mpeg"/>
+    <itunes:duration>45:46</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 16:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Книжное казино : Людмила Петрушевская
+  </title>
+  <link>https://echo.msk.ru/programs/kazino/2273832-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2695834.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/696684-echo/&quot;&gt;Людмила Петрушевская&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/30/&quot;&gt;Ксения Ларина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-kazino-1510.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-kazino-1510.mp3"
+      length="11147125" type="audio/mpeg"/>
+    <itunes:duration>46:26</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 15:10:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Культурный шок : От Кашпировского до Тони Роббинса: путь к успеху или массовый гипноз?
+  </title>
+  <link>https://echo.msk.ru/programs/kulshok/2273662-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2976790.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823972-echo/&quot;&gt;Михаил Кларин&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/guests/179/&quot;&gt;Александр Асмолов&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/30/&quot;&gt;Ксения Ларина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;А что такого страшного и опасного здесь? Кто-то здесь зомбирован? Да, по-моему, не больше, чем на любом рок-концерте. Люди прыгают совместно, да. А что, на рок-концертах они не прыгают?..&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-kulshok-1405.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-kulshok-1405.mp3"
+      length="11109406" type="audio/mpeg"/>
+    <itunes:duration>46:17</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 14:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Родительское собрание : Образовательные проекты Тинькофф. Как готовят айтишников для российской экономики со школьной скамьи
+  </title>
+  <link>https://echo.msk.ru/programs/assembly/2273818-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823984-echo/&quot;&gt;Екатерина Шестимерова&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/540183-echo/&quot;&gt;Алексей Кузнецов&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Мы запустили «Тинькофф Финтех Школу». Это была трехмесячная школа, где ребята вечером приходили и занимались по трем направлениям…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-parents-1311.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-parents-1311.mp3"
+      length="10367320" type="audio/mpeg"/>
+    <itunes:duration>43:11</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 13:11:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Не так : Партийный суд над Евно Азефом по обвинению в сотрудничестве с тайной полицией, Франция, 1908-09 гг
+  </title>
+  <link>https://echo.msk.ru/programs/netak/2273084-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/759533.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/540183-echo/&quot;&gt;Алексей Кузнецов&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/12/&quot;&gt;Сергей Бунтман&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;Это дело оказало влияние на революционное движение в России в целом, которое оказало огромное влияние на тайную полицию, которое оказало колоссальное, ни с чем не сравнимое влияние на партию социалистов-революционеров…&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-netak-1205.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-netak-1205.mp3"
+      length="11177530" type="audio/mpeg"/>
+    <itunes:duration>46:34</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 12:05:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Говорим по-русски. Радио-альманах : Ольга Северская
+  </title>
+  <link>https://echo.msk.ru/programs/rusalmanach/2274626-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2911494.jpg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/33/&quot;&gt;Ольга Северская&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/34/&quot;&gt;Марина Королева&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-rusalmanach-1150.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-rusalmanach-1150.mp3"
+      length="1919432" type="audio/mpeg"/>
+    <itunes:duration>07:59</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 11:50:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Путешествия по Подмосковью : Татьяна Пелипейко
+  </title>
+  <link>https://echo.msk.ru/programs/moscowtravel/2274588-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;44&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/att/avatar_s/ppl-1188-img2.jpeg&quot; /&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/1188/&quot;&gt;Татьяна Пелипейко&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-moscowtravel-1123.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-moscowtravel-1123.mp3"
+      length="1047885" type="audio/mpeg"/>
+    <itunes:duration>04:21</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 11:23:00 +0300</pubDate>
+</item>
+
+      <item>
+  <title>
+    Говорим по-русски. Передача-игра : Речь как важнейший инструмент успеха
+  </title>
+  <link>https://echo.msk.ru/programs/speakrus/2273642-echo/</link>
+  <description>
+    
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/823970-echo/&quot;&gt;Михаил Осадчий&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/33/&quot;&gt;Ольга Северская&lt;/a&gt;
+    , 
+    &lt;a href=&quot;https://echo.msk.ru/contributors/8104/&quot;&gt;Оксана Пашина&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-09-speakrus-1105.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-09-speakrus-1105.mp3"
+      length="9314273" type="audio/mpeg"/>
+    <itunes:duration>38:48</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Sun, 09 Sep 2018 11:05:00 +0300</pubDate>
+</item>
+
+
+  </channel>
+</rss>
