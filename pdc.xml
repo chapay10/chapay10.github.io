@@ -31,6 +31,34 @@
   <itunes:email>info@echo.msk.ru</itunes:email>
   </itunes:owner>
 <ttl>1440</ttl>
+<item>
+  <title>
+    Интервью : Евстратий
+  </title>
+  <link>https://echo.msk.ru/programs/beseda/2276728-echo/</link>
+  <description>
+    &lt;img align=&quot;left&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot; title=&quot;&quot; src=&quot;https://echo.msk.ru/files/avatar_s/2977974.jpg&quot; /&gt;
+  &lt;p&gt;Гости:
+    
+    &lt;a href=&quot;https://echo.msk.ru/guests/824008-echo/&quot;&gt;Евстратий&lt;/a&gt;
+  &lt;/p&gt;
+  &lt;p&gt;Ведущие:
+    
+    &lt;a href=&quot;https://echo.msk.ru/contributors/13050/&quot;&gt;Сакен Аймурзаев&lt;/a&gt;
+  &lt;/p&gt;
+&lt;p&gt;
+
+СЛУШАТЬ&amp;gt;&amp;gt;&amp;gt;&lt;/p&gt;
+
+  </description>
+  <author>info@echo.msk.ru (Эхо Москвы)</author>
+    <guid>http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1605.mp3</guid>
+    <enclosure url="http://cdn.echo.msk.ru/snd/2018-09-12-beseda-1605.mp3"
+      length="9067566" type="audio/mpeg"/>
+    <itunes:duration>37:46</itunes:duration>
+    <itunes:explicit>No</itunes:explicit>
+  <pubDate>Wed, 12 Sep 2018 16:31:00 +0300</pubDate>
+</item>
       <item>
   <title>
     Интервью : Евстратий
