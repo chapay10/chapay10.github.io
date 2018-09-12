@@ -18,6 +18,19 @@
                         <itunes:email>RuHomePage@rferl.org</itunes:email>
                     </itunes:owner><itunes:category text="News &amp; Politics"/>
                 <atom:link href="https://www.svoboda.org/podcast/?count=20&amp;zoneId=17" rel="self" type="application/rss+xml" />
+                <item>
+            <title>Новости - 12 Сентябрь, 2018</title>
+            <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
+            <guid>https://www.svoboda.org/a/29458655.html</guid>            
+            <pubDate>Wed, 12 Sep 2018 16:20:00 +0300</pubDate>
+            
+                <itunes:author>RFE/RL</itunes:author>
+                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
+                <itunes:duration>00:05:00</itunes:duration>
+                      
+                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
+                <enclosure url="https://audio.rferl.org/RU/2018/09/12/20180912-130000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
+        </item>		
     		<item>
             <title>Новости - 12 Сентябрь, 2018</title>
             <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
