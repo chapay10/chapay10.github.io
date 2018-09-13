@@ -9,14 +9,25 @@
         <language>ru</language>
         <copyright>Радио Свобода &amp;#169; 2010 RFE/RL, Inc. | Все права защищены. </copyright>   
         <ttl>60</ttl>        
-        <lastBuildDate>Thu, 13 Sep 2018 11:56:07 +0300</lastBuildDate> 
-        <generator>Радио Свобода</generator>        
-          <itunes:author>RFE/RL</itunes:author>
+            <itunes:author>RFE/RL</itunes:author>
                     <itunes:owner>
                         <itunes:name>Радио Свобода</itunes:name>
                         <itunes:email>RuHomePage@rferl.org</itunes:email>
                     </itunes:owner><itunes:category text="News &amp; Politics"/>
                 <atom:link href="https://www.svoboda.org/podcast/?count=20&amp;zoneId=17" rel="self" type="application/rss+xml" />
+                <item>
+            <title>Новости - 13 Сентябрь, 2018</title>
+            <description>Новости Радио Свобода: точность, оперативность, бasfdsdfеспристрастность</description>
+            <guid>https://www.svoboda.org/a/2946053dddd9.html</guid>            
+            <pubDate>Thu, 13 Sep 2018 11:12:00 +0300</pubDate>
+            
+                <itunes:author>RFE/RL</itunes:author>
+                <itunes:summary>Новости Радио Свобода: точность, оперативность, беспристрастность</itunes:summary>
+                <itunes:duration>00:05:00</itunes:duration>
+                      
+                <itunes:image href="https://gdb.rferl.org/8DDACC71-5D48-4322-84BF-5930B7766188_w640_h360.jpg" /> 
+                <enclosure url="https://audio.rferl.org/RU/2018/09/13/20180913-080000-RU081-program_hq.mp3" type="audio/mpeg" length="1228800" />
+        </item>     
             <item>
             <title>Новости - 13 Сентябрь, 2018</title>
             <description>Новости Радио Свобода: точность, оперативность, беспристрастность</description>
