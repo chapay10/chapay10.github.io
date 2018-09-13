@@ -13,8 +13,8 @@
     </itunes:summary>
     <itunes:subtitle>Лекции по истории литературе, искусству, антропологии, философии — о культуре и человеке.</itunes:subtitle>
     <language>ru</language>
-    <pubDate>Wed, 12 Sep 2018 18:48:05 +0300</pubDate>
-    <lastBuildDate>Wed, 12 Sep 2018 18:48:05 +0300</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 11:20:41 +0300</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 11:20:41 +0300</lastBuildDate>
     <itunes:author>Arzamas</itunes:author>
     <itunes:keywords>podcasts, образование, история, литература, культура, искусство, антропология, философия, Арзамас</itunes:keywords>
     <itunes:image href="https://cdn-s-static.arzamas.academy/podcast-logo.jpg"/>
@@ -25,6 +25,20 @@
     <itunes:block>no</itunes:block>
     <itunes:category text="Education"/>
     <itunes:category text="Society &amp;amp; Culture"/>
+    <item>
+      <title>Открывая русскую провинцию. Иваново. Лекция 1. С чего sadfsdfdsначался русский пейзаasdfsadasdfsdaadfsж</title>
+      <description>Как русские художники научились писать Волгу, а потsadfsdfsdfsdfом и остальную природу</description>
+      <pubDate>Thu, 13 Sep 2018 11:20:41 +0300</pubDate>
+      <enclosure url="https://cdn-s-video.arzamas.academy/audio/056/arzamas-056-01.mp3?secure=1DGsJz9qV-9B8oJkUeyJJQ==,7258107600&amp;md5=ilpYyibjlahRpVwkJpXORw&amp;expires=7258107600" length="26635518" type="audio/mpeg"/>
+      <link>https://arzamas.academy/courses/56/11133311</link>
+      <guid>http://arzamas.academy/episodes/381111eee112</guid>
+      <itunes:author>Arzamas</itunes:author>
+      <itunes:subtitle>Как русские художники научились писать Волгу, а потом и остальную природу</itunes:subtitle>
+      <itunes:summary>Как русские художники научились писать Волгу, а потом и остальную природу</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:duration>1663</itunes:duration>
+      <itunes:image href="https://cdn-s-static.arzamas.academy/storage/lecture/382/podcast_preview_preview_picture-c05435b4-7f70-4146-b7a4-cd2418ab3cf5.jpg"/>
+    </item>
     <item>
       <title>Открывая русскую провинцию. Иваново. Лекция 1. С чего начался русский пейзаasdfsadasdfsdaadfsж</title>
       <description>Как русские художники научились писать Волгу, а потом и остальную природу</description>
