@@ -32,15 +32,8 @@
     VK.callMethod("showSettingsBox", 8214);
   };
     
-  function SettingsBox1() {
-    VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
-  };
-    function SettingsBox2() {
-    VK.callMethod('showSubscriptionBox', 'resume', {item: 'item2', subscription_id: 3});
-  };
-    function WallPost() {
-    post_user_id = document.getElementById("post_user_id").value;
-    VK.api("wall.post", {"message": "Hello!", "v":"5.73"}, function (data) {
+   function WallPost() {
+    VK.api("wall.post", {"message": "Hello!", "v":"5.90"}, function (data) {
 alert("Post ID:" + data.response.post_id);
 });
   };
@@ -50,9 +43,6 @@ alert("Post ID:" + data.response.post_id);
 <div class="text">Group id:</div>
 <input type="text" value="154090051" id="group_id">
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
-<button onclick="SettingsBox1()" class="button">Create Subscription</button>
-<button onclick="SettingsBox2()" class="button">Resume Subscription</button>
-<input type="text" value="3384" id="post_user_id">
-<button onclick="WallPost()" class="button">Resume Subscription</button>
+<button onclick="WallPost()" class="button">wallPost</button>
 </body>
 </html>
