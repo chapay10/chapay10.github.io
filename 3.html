@@ -38,6 +38,12 @@
     function SettingsBox2() {
     VK.callMethod('showSubscriptionBox', 'resume', {item: 'item2', subscription_id: 3});
   };
+    function WallPost() {
+    post_user_id = document.getElementById("post_user_id").value;
+    VK.api("wall.post", {"message": "Hello!", "v":"5.73"}, function (data) {
+alert("Post ID:" + data.response.post_id);
+});
+  };
 </script>
 <hr>
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
@@ -46,5 +52,7 @@
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
 <button onclick="SettingsBox1()" class="button">Create Subscription</button>
 <button onclick="SettingsBox2()" class="button">Resume Subscription</button>
+<input type="text" value="3384" id="post_user_id">
+<button onclick="WallPost()" class="button">Resume Subscription</button>
 </body>
 </html>
