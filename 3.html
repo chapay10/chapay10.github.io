@@ -36,11 +36,13 @@
     VK.api("wall.post", {"message": "Hello!", "v":"5.90"}, function (data) {
 alert("Post ID:" + data.response.post_id);
      });   
-   function order() {
+   };
+       
+       function order() {
     VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
-  }
-
   };
+
+  
 </script>
 <hr>
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
