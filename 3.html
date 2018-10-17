@@ -41,7 +41,9 @@ alert("Post ID:" + data.response.post_id);
        function order() {
     VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
   };
-
+function resume() {
+    VK.callMethod('showSubscriptionBox', 'resume', {item: 'item1'});
+  };
   
 </script>
 <hr>
@@ -51,5 +53,6 @@ alert("Post ID:" + data.response.post_id);
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
 <button onclick="WallPost()" class="button">wallPost</button>
     <button onclick="order()" class="button">showSubscriptionBox</button>
+    <button onclick="order()" class="button">showSubscriptionBox (resume)</button>
 </body>
 </html>
