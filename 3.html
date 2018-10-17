@@ -35,6 +35,10 @@
    function WallPost() {
     VK.api("wall.post", {"message": "Hello!", "v":"5.90"}, function (data) {
 alert("Post ID:" + data.response.post_id);
+        
+        function order() {
+    VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
+  }
 });
   };
 </script>
@@ -44,5 +48,6 @@ alert("Post ID:" + data.response.post_id);
 <input type="text" value="154090051" id="group_id">
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
 <button onclick="WallPost()" class="button">wallPost</button>
+    <button onclick="order()" class="button">showSubscriptionBox</button>
 </body>
 </html>
