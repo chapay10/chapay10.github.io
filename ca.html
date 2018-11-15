@@ -13,10 +13,16 @@
   
   function InviteBox() {
     VK.callMethod("showAllowMessagesFromCommunityBox");
+    
+  function SettingsBox() {
+    VK.callMethod("showSettingsBox", document.getElementById("scope").value)
 };
 
   </script>
-<button onclick="InviteBox()" class="button">showInviteBox</button>
+<button onclick="SettingsBox()" class="button">showSettingsBox</button>
+  div class="text">Scope:</div>
+<input type="text" value="3295" id="scope">
+<hr>
 <br>
 <style>.button{
   width: 100%;
