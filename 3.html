@@ -40,19 +40,31 @@
         console.log('onOrderFail, error_code=' + error_code);
     });
 
+    VK.addCallback('onSubscriptionCancel', function() {
+        console.log('onSubscriptionCancel');
+    });
+
+    VK.addCallback('onSubscriptionSuccess', function(subscription_id) {
+        console.log('onSubscriptionSuccess, order_id=' + subscription_id);
+    });
+
+    VK.addCallback('onSubscriptionFail', function(errorCode) {
+        console.log('onSubscriptionFail, error_code=' + errorCode);
+    });
+
 
     VK.addCallback('onAllowMessagesFromCommunity', function() {
-        console.log('Allow');
+        console.log('onAllowMessagesFromCommunity');
     });
     VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
-        console.log('Cancel');
+        console.log('onAllowMessagesFromCommunity');
     });
 
     
   }, function() { 
      // API initialization failed 
      // Can reload page here 
-    }, '5.73');
+    }, '5.96');
 
   function InstallBox() {
     console.log('Click showInstallBox');
@@ -94,16 +106,9 @@
     VK.callMethod("showInstallPushBox");
   };
 
-   function WallPost() {
-    VK.api("wall.post", {"message": "Hello!", "v":"5.90"}, function (data) {
-alert("Post ID:" + data.response.post_id);
-     });   
-   };
-
-    function AllowMessagesFromCommunityBox() {
-    console.log('Click allow');
-    group = document.getElementById("group_id").value;
-    VK.callMethod('showAllowMessagesFromCommunityBox', group);
+  function AllowMessagesFromCommunityBox() {
+    console.log('Click AllowMessagesFromCommunityBox');
+    VK.callMethod('showAllowMessagesFromCommunityBox', document.getElementById("group_id").value);
   };
        
   
@@ -151,12 +156,8 @@ alert("Post ID:" + data.response.post_id);
 <button onclick="InstallPushBox()" class="button">showInstallPushBox</button>
 <hr>
 
+<div class="text">group_id</div>
+<input type="text" value="170180028" id="group_id">
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
-<div class="text">Group id:</div>
-<input type="text" value="154090051" id="group_id">
-<button onclick="SettingsBox()" class="button">showSettingsBox</button>
-<button onclick="WallPost()" class="button">wallPost</button>
-<button onclick="order()" class="button">showSubscriptionBox</button>
-<button onclick="resume()" class="button">showSubscriptionBox (resume)</button>
 </body>
 </html>
