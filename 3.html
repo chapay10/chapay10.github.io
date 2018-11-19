@@ -81,7 +81,7 @@
 
   function SubscriptionBox() {
     console.log('Click showSubscriptionBox');
-    VK.callMethod('SubscriptionBox', 'create', {item: 'item1'});
+    VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
   };
 
   function SetTitle() {
@@ -113,13 +113,13 @@ alert("Post ID:" + data.response.post_id);
 <!-- showInstallBox -->
 <button onclick="InstallBox()" class="button">showInstallBox</button>
 <br><br>
-
+<hr>
 <!-- showSettingsBox -->
 <div class="text">scope:</div>
 <input type="text" value="8214" id="scope"><br>
 <button onclick="SettingsBox()" class="button">showSettingsBox</button>
 <br><br>
-
+<hr>
 <!-- showRequestBox -->
 <div class="text">request_id:</div>
 <input type="text" value="1" id="request_id">
@@ -129,32 +129,32 @@ alert("Post ID:" + data.response.post_id);
 <input type="text" value="test_key" id="request_key"><br>
 <button onclick="RequestBox()" class="button">showRequestBox</button>
 <br><br>
-
+<hr>
 
 <!-- showInviteBox -->
 <button onclick="InviteBox()" class="button">showInviteBox</button>
 <br><br>
-
+<hr>
 <!-- showOrderBox -->
 <button onclick="OrderBox()" class="button">showOrderBox</button>
 <br><br>
-
+<hr>
 
 <!-- showOrderBox -->
 <button onclick="SubscriptionBox()" class="button">showSubscriptionBox (create)</button>
 <br><br>
-
+<hr>
 <!-- setTitle -->
 <div class="text">title:</div>
 <input type="text" value="test_title" id="title">
 <button onclick="SetTitle()" class="button">setTitle</button>
 <br><br>
-
+<hr>
 
 <!-- showInstallPushBox -->
 <button onclick="InstallPushBox()" class="button">showInstallPushBox</button>
 <br><br>
-
+<hr>
 
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
 <div class="text">Group id:</div>
