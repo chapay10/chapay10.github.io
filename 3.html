@@ -38,9 +38,13 @@ alert("Post ID:" + data.response.post_id);
      });   
    };
        
-       function order() {
-    VK.callMethod('showOrderBox', 'create', {item: 'item1'});
-  };
+        function order() {
+    var params = {
+      type: 'item',
+      item: 'item1'
+    };
+    VK.callMethod('showOrderBox', params);
+  }
 function resume() {
     VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
   };
