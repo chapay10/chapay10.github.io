@@ -5,48 +5,125 @@
 <body>
 <script type="text/javascript">
   VK.init(function() { 
+    VK.addCallback('onApplicationAdded', function() {
+        console.log('onApplicationAdded');
+    });
+
+    VK.addCallback('onSettingsChanged', function() {
+        console.log('onSettingsChanged');
+    });
+    VK.addCallback('onSettingsCancel', function() {
+        console.log('onSettingsCancel');
+    });
+
+    VK.addCallback('onRequestSuccess', function() {
+        console.log('onRequestSuccess');
+    });
+
+    VK.addCallback('onRequestCancel', function() {
+        console.log('onRequestCancel');
+    });
+
+    VK.addCallback('onRequestFail', function() {
+        console.log('onRequestFail');
+    });
+
+    VK.addCallback('onOrderCancel', function() {
+        console.log('onOrderCancel');
+    });
+
+    VK.addCallback('onOrderSuccess', function(order_id) {
+        console.log('onOrderSuccess, order_id=' + order_id);
+    });
+
+    VK.addCallback('onOrderFail', function(erroc_code) {
+        console.log('onOrderFail, error_code=' + error_code);
+    });
+
+
     VK.addCallback('onAllowMessagesFromCommunity', function() {
         console.log('Allow');
     });
     VK.addCallback('onAllowMessagesFromCommunityCancel', function() {
         console.log('Cancel');
     });
-    VK.addCallback('onSettingsChanged', function() {
-        console.log('Changed');
-    });
-    VK.addCallback('onSettingsCancel', function() {
-        console.log('Cances');
-    });
+
+    
   }, function() { 
      // API initialization failed 
      // Can reload page here 
     }, '5.73');
-  function AllowMessagesFromCommunityBox() {
-    console.log('Click allow');
-    group = document.getElementById("group_id").value;
-    VK.callMethod('showAllowMessagesFromCommunityBox', group);
+
+  function InstallBox() {
+    console.log('Click showInstallBox');
+    VK.callMethod("showInstallBox");
   };
-    
+
   function SettingsBox() {
-    console.log('Click settings');
-    VK.callMethod("showSettingsBox", 8214);
+    console.log('Click showSettingsBox');
+    VK.callMethod("showSettingsBox", document.getElementById("scope").value);
+  };
+
+  function RequestBox() {
+    console.log('Click showRequestBox');
+    VK.callMethod("showRequestBox", document.getElementById("request_id").value, document.getElementById("request_message").value, document.getElementById("request_key").value);
   };
     
+   function InviteBox() {
+    console.log('Click showInviteBox');
+    VK.callMethod("showInviteBox");
+  };
+
+  function OrderBox() {
+    console.log('Click showOrderBox');
+    VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
+  }
+
+  function SubscriptionBox() {
+    VK.callMethod('SubscriptionBox', 'create', {item: 'item1'});
+  };
+
+
    function WallPost() {
     VK.api("wall.post", {"message": "Hello!", "v":"5.90"}, function (data) {
 alert("Post ID:" + data.response.post_id);
      });   
    };
-       
-        function order() {
-    VK.callMethod("showOrderBox", {"type":"item","item":"item1"});
-  }
-function resume() {
-    VK.callMethod('showSubscriptionBox', 'create', {item: 'item1'});
+
+    function AllowMessagesFromCommunityBox() {
+    console.log('Click allow');
+    group = document.getElementById("group_id").value;
+    VK.callMethod('showAllowMessagesFromCommunityBox', group);
   };
+       
+  
   
 </script>
 <hr>
+<!-- showInstallBox -->
+<button onclick="InstallBox()" class="button">showInstallBox</button>
+
+<!-- showSettingsBox -->
+<div class="text">scope:</div>
+<input type="text" value="8214" id="scope">
+<button onclick="SettingsBox()" class="button">showSettingsBox</button>
+
+<!-- showRequestBox -->
+<div class="text">request_id:</div>
+<input type="text" value="1" id="request_id">
+<div class="text">request_message:</div>
+<input type="text" value="Test!" id="request_message">
+<div class="text">request_key:</div>
+<input type="text" value="test_key" id="request_key">
+<button onclick="RequestBox()" class="button">showRequestBox</button>
+
+
+<!-- showInviteBox -->
+<button onclick="InviteBox()" class="button">showInviteBox</button>
+
+<!-- showOrderBox -->
+<button onclick="onRequestFail()" class="button">showOrderBox</button>
+
 <button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
 <div class="text">Group id:</div>
 <input type="text" value="154090051" id="group_id">
