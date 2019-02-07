@@ -6,6 +6,17 @@
         <link>https://test.com</link>
         <item>
       <title><![CDATA[[Перевод] Руководство по Kubernetes, часть 2: создание кластера и работа с ним]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/4389814/</guid>
+      <link>https://habr.com/ru/post/438984/?utm_campaign=4389814</link>
+      <description><![CDATA[В <p>Печальные новости: <a href="https://www.steveklabnik.com">Стив Клабник</a> и <a href="https://ncameron.org">Ник "nrc" Камерон</a> покидают Мозиллу.</p> <a href="https://habr.com/ru/post/439354/?utm_campaign=439354#habracut">Читать дальше →</a> <p>Печальные новости: <a href="https://www.steveklabnik.com">Стив Клабник</a> и <a href="https://ncameron.org">Ник nrc Камерон</a> покидают Мозиллу.</p> <a href="https://habr.com/ru/post/439354/?utm_campaign=439354#habracut">Читать дальше →</a>]]></description>
+      
+      <pubDate>Thu, 07 Feb 2019 17:00:01 GMT</pubDate>
+      <dc:creator>ru_vds</dc:creator>
+      <category><![CDATA[Блог компании RUVDS.com]]></category><category><![CDATA[Kubernetes]]></category><category><![CDATA[Виртуализация]]></category><category><![CDATA[Разработка веб-сайтов]]></category><category><![CDATA[Серверное администрирование]]></category>
+      <category>Kubernetes</category><category>разработка</category>
+    </item>
+        <item>
+      <title><![CDATA[[Перевод] Руководство по Kubernetes, часть 2: создание кластера и работа с ним]]></title>
       <guid isPermaLink="true">https://habr.com/ru/post/438984/</guid>
       <link>https://habr.com/ru/post/438984/?utm_campaign=438984</link>
       <description><![CDATA[В <a href="https://habr.com/ru/company/ruvds/blog/438982/">прошлый</a> раз мы рассмотрели два подхода к работе с микросервисами. В частности, один из них подразумевает применение контейнеров Docker, в которых можно выполнять код микросервисов и вспомогательных программ. Сегодня же мы, используя уже имеющиеся у нас образы контейнеров, займёмся работой с Kubernetes.<br>
