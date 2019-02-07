@@ -5,6 +5,29 @@
         <description>test test</description>
         <link>https://test.com</link>
         <item>
+<title>Skype получил функdddddddцию размытия заднего фона для видеозвонков</title>
+<guid isPermaLink="true">https://thecomdsadmunity.ru/microsoft/skype/6499-skype-poluchil-funkciju-razmytija-zadnego-fona-dlja-videozvonkov.html</guid>
+<link>https://thecommunity.ru/microsofasdasdt/skype/6499-skype-poluchil-funkciju-razmytija-zadnego-fona-dlja-videozvonkov.html</link>
+<description><![CDATA[
+<p>Предлагаю вашему вниманию субъективную подборку ржавых новостей за январь. В этой подборке: Rust 1.32, уход Стива Клабника и Ника Камерона, киш от Cloudflare, устройство rust-analyzer и страничной памяти, поиски GUI и async, Oxydyze конференция для встроенщиков.</p><br>
+ <p><img src="https://habrastorage.org/webt/1g/oa/vu/1goavukuqjhis7rjdmdnmxdsi7a.jpeg" alt="КДПВ"></p><br>
+ <h2 id="rust-132httpshabrcomrupost436854"><a href="https://habr.com/ru/post/436854">Rust 1.32</a></h2><br>
+ <p>Вышел Rust 1.32. По сравнению с масштабным прошлым выпуском, на котором было сконцентрировано множество сил всего сообщества, тут серьезных нововведений не очень много:</p><br>
+ <ul>
+ <li>Новый вспомогательный макрос для отладки <code>dbg!</code>;</li>
+ <li>По умолчанию убран jemalloc.</li>
+ <li>Стабилизированы <a href="https://github.com/rust-lang/rust/pull/56759#issuecomment-450051210">"единообразные пути" ("uniform paths")</a></li>
+ </ul><br>
+ <p>Подробности <a href="https://habr.com/ru/post/436854">в переводе новости</a>.</p><br>
+ <h2 id="stiv-klabnik-i-nik-kameron-uhodyat-iz-mozilla">Стив Клабник и Ник Камерон уходят из Mozilla</h2><br>
+ <p><img src="https://habrastorage.org/webt/ie/co/ye/iecoyew7shi57zssuopa8nxizhi.jpeg" alt="NYT firefox 1.0"></p><br>
+ <p>Печальные новости: <a href="https://www.steveklabnik.com">Стив Клабник</a> и <a href="https://ncameron.org">Ник "nrc" Камерон</a> покидают Мозиллу.</p> <a href="https://habr.com/ru/post/439354/?utm_campaign=439354#habracut">Читать дальше →</a>
+]]></description>
+<category><![CDATA[Skype]]></category>
+<dc:creator>Kapranov</dc:creator>
+<pubDate>Thu, 07 Feb 2019 16:39:36 +0300</pubDate>
+</item>
+        <item>
 <title>Skype получил функцию размытия заднего фона для видеозвонков</title>
 <guid isPermaLink="true">https://thecommunity.ru/microsoft/skype/6499-skype-poluchil-funkciju-razmytija-zadnego-fona-dlja-videozvonkov.html</guid>
 <link>https://thecommunity.ru/microsoft/skype/6499-skype-poluchil-funkciju-razmytija-zadnego-fona-dlja-videozvonkov.html</link>
