@@ -1,3 +1,4 @@
+#https://mithunjj.com/download-remote-file-with-php-output-to-browser/
 <?php
 
 $url = $_GET['url'];
