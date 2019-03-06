@@ -1,5 +1,6 @@
 <input type="file" id="fileUpload">
 <script type="text/javascript">
+     
 function getFilePath(){
      $('input[type=file]').change(function () {
          var filePath=$('#fileUpload').val(); 
@@ -7,4 +8,9 @@ function getFilePath(){
          console.log("qwe");
      });
 }
+     
+window.onload = function(){
+console.log("aaa");
+}
+     
 </script>
