@@ -110,6 +110,12 @@
     console.log('Click AllowMessagesFromCommunityBox');
     VK.callMethod('showAllowMessagesFromCommunityBox', document.getElementById("group_id").value);
   };
+
+  function wallPost() {
+    console.log('wall.post');
+    //VK.callMethod('showAllowMessagesFromCommunityBox', document.getElementById("group_id").value);
+	  VK.api("wall.post", {"message": document.getElementById("Post").value, "v":"5.100"})
+  };
        
   
   
@@ -159,6 +165,12 @@
 <div class="text">group_id</div>
 	<input type="text" value="170180028" id="group_id"><br>
 	<button onclick="AllowMessagesFromCommunityBox()" class="button">showAllowMessagesFromCommunityBox</button>
+	
+<hr>
+	
+<div class="text">Post</div>
+	<input type="text" value="" id="Post"><br>
+	<button onclick="wallPost()" class="button">wall.post</button>
 
 <style>.button{
   width: 70%;
