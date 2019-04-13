@@ -114,7 +114,7 @@
   function wallPost() {
     console.log('wall.post');
     //VK.callMethod('showAllowMessagesFromCommunityBox', document.getElementById("group_id").value);
-	  VK.api("wall.post", {"message": document.getElementById("Post").value, "v":"5.100"})
+	  VK.api("wall.post", {"message": document.getElementById("Post").value, "v":"5.100", "attachments": document.getElementById("Attach").value})
   };
        
   
@@ -170,6 +170,8 @@
 	
 <div class="text">Post</div>
 	<input type="text" value="" id="Post"><br>
+	<div class="text">Attach</div>
+	<input type="text" value="" id="Attach"><br>
 	<button onclick="wallPost()" class="button">wall.post</button>
 
 <style>.button{
