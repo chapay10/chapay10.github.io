@@ -9,8 +9,10 @@
 
   vkuiConnect.subscribe((e) => { 
    console.log(e.data.status); 
-};
+});
   
+
+
   function VKWebAppShowInviteBox() {
     document.getElementById('callback_text').value = vkuiConnect.send("VKWebAppShowInviteBox", {});
 };
