@@ -8,7 +8,7 @@
   vkuiConnect.send("VKWebAppInit", {});
 
   vkuiConnect.subscribe((e) => { 
-   console.log(String(e.data)); 
+   console.log(JSON.stringify(e.data)); 
 });
   
 
