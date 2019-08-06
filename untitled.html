@@ -6,11 +6,8 @@
 <script type="text/javascript">
   
   vkuiConnect.send("VKWebAppInit", {});
-
   vkuiConnect.subscribe((e) => document.getElementById('callback_text').value = JSON.stringify(e)); 
   
-
-
   function VKWebAppShowInviteBox() {
    vkuiConnect.send("VKWebAppShowInviteBox", {});
 };
@@ -115,7 +112,8 @@
 </label>
 </div>
 <div class="text">Callback result:</div>
-<input type="text" id="callback_text" class="callback">
+<textarea type="text" id="callback_text" class="callback">assad</textarea>
+<p><textarea rows="10" cols="45" name="text" class="callback"></textarea></p>
 <hr>
 <button onclick="VKWebAppShowInviteBox()" class="button">VKWebAppShowInviteBox</button>
 <br>
