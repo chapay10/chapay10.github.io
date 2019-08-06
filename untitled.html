@@ -25,7 +25,7 @@
            margin-bottom: 10px;
            overflow: scroll;
            max-height: 100px;
-           max-width: 300px;
+           max-width: 100%;
         }
         input, textarea, select,button {
             display: block;
@@ -37,7 +37,7 @@
         }
         .controls {
             overflow: scroll;
-            max-height: 200px;
+            max-height: 250px;
         }
     </style>
   </head><body>
@@ -45,6 +45,7 @@
   <textarea id="params" class="result"></textarea>
   <textarea id="result" class="result">["failed init"]</textarea>
   <button onclick="sendEvent()">Send Event</button>
+  <br>
   <div class="controls">
     <button onclick="VKWebAppAddToFavorites()">VKWebAppAddToFavorites</button>
     <button onclick="VKWebAppAllowMessagesFromGroup()">VKWebAppAllowMessagesFromGroup</button>
