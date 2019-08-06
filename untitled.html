@@ -7,14 +7,12 @@
   
   vkuiConnect.send("VKWebAppInit", {});
 
-  vkuiConnect.subscribe((e) => { 
-   console.log(JSON.stringify(e.data)); 
-});
+  vkuiConnect.subscribe((e) => document.getElementById('callback_text').value = e); 
   
 
 
   function VKWebAppShowInviteBox() {
-    document.getElementById('callback_text').value = vkuiConnect.send("VKWebAppShowInviteBox", {});
+   vkuiConnect.send("VKWebAppShowInviteBox", {});
 };
   function SettingsBox() {
     if (document.getElementById('callbacks').checked) {
