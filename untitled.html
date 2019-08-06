@@ -8,7 +8,7 @@
   vkuiConnect.send("VKWebAppInit", {});
   
   function VKWebAppShowInviteBox() {
-    document.getElementById('callback_text').value = vkuiConnect.send("VKWebAppShowInviteBox", {});
+    document.getElementById('callback_text').value = JSON.stringify(vkuiConnect.send("VKWebAppShowInviteBox", {}));
 };
   function SettingsBox() {
     if (document.getElementById('callbacks').checked) {
@@ -173,7 +173,7 @@
 
 <style>.button{
   width: 100%;
-  font-size: 200%;
+  font-size: 100%;
   border-radius: 5px;
     border: 1px solid #666;
     padding: 5px;
@@ -191,7 +191,7 @@ input{
         display: block;
     }
 .text{
-  font-size: 200%;
+  font-size: 100%;
 }
 hr{
   border: 4px solid;
