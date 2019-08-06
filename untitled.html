@@ -5,7 +5,8 @@
 <body>
   <script>
   vkuiConnect.send("VKWebAppInit", {});
-  console.log(vkuiConnect.send("VKWebAppGetUserInfo", {}));
+  vkuiConnect.send("VKWebAppGetPhoneNumber", {});
+    console.log(vkuiConnect.send("VKWebAppGetUserInfo", {}));
    </script> 
 </body>
 </html>
