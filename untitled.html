@@ -73,6 +73,8 @@
     <button onclick="VKWebAppShowOrderBox()">VKWebAppShowOrderBox</button>
     <button onclick="VKWebAppShowRequestBox()">VKWebAppShowRequestBox</button>
     <button onclick="VKWebAppShowWallPostBox()">VKWebAppShowWallPostBox</button>
+    <button onclick="VKWebAppScroll()">VKWebAppScroll</button>
+    <button onclick="VKWebAppResizeWindow()">VKWebAppResizeWindow</button>
 
     
   </div>
@@ -161,6 +163,14 @@
     function VKWebAppShowWallPostBox() {
      document.getElementById('event').value = "VKWebAppShowWallPostBox";
      document.getElementById('params').value = '{"message": "Hello!", "attachments": "photo1_456317315,video-111622233_456239217,audio-2001009867_53009867,poll-170893378_339399046"}'
+    };
+   function VKWebAppScroll() {
+     document.getElementById('event').value = "VKWebAppScroll";
+     document.getElementById('params').value = '{"top": 1, "speed": 600}'
+    };
+    function VKWebAppResizeWindow() {
+     document.getElementById('event').value = "VKWebAppResizeWindow";
+     document.getElementById('params').value = '{"width": 800, "height": 1000}'
     };
   </script>
   
