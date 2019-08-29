@@ -81,7 +81,8 @@
   <script>
        
     vkuiConnect.send("VKWebAppInit", {});
-    vkuiConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e)});
+   // vkuiConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e)});
+      vkuiConnect.subscribe((e) => console.log(e)); 
     
     function sendEvent() {
      vkuiConnect.send(document.getElementById('event').value, JSON.parse(document.getElementById('params').value));
