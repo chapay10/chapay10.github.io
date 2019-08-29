@@ -1,144 +1,199 @@
-/* global window, parent */
-/* eslint no-restricted-globals: ["off", "parent"] */
-import './custom-event-polyfill';
-import DESKTOP_EVENTS from './desktop-events';
+(function() {
+  function isFunction(object) {
+    return typeof object === 'function';
+  }
 
-const FUNCTION = 'function';
-const UNDEFINED = 'undefined';
-const isClient = typeof window !== UNDEFINED;
-const isIOSNativeClient =
+  var subscribers = [];
+  var webFrameId = null;
+  var connectVersion = '1.5.5';
+
+  var isClient = typeof window !== 'undefined';
+  var isIOSNativeClient =
     isClient &&
     window.webkit &&
     window.webkit.messageHandlers !== undefined &&
     window.webkit.messageHandlers.VKWebAppClose !== undefined;
 
-const androidBridge = isClient && window.AndroidBridge;
-const iosBridge = isIOSNativeClient && window.webkit.messageHandlers;
-const isWeb = !androidBridge && !iosBridge;
-const eventType = isWeb ? 'message' : 'VKWebAppEvent';
-const promises = {};
-let methodCounter = 0;
-let frameId = '';
-const subscribers = [];
+  var androidBridge = isClient && window.AndroidBridge;
+  var iosBridge = isIOSNativeClient && window.webkit.messageHandlers;
 
-window.addEventListener(eventType, (event) => {
-  let promise = null;
-  let response = {};
+  var isWeb = isClient && !androidBridge && !iosBridge;
+  var eventType = isWeb ? 'message' : 'VKWebAppEvent';
 
-  if (isWeb) {
-    if (event.data.type && event.data.type === 'VKWebAppSettings') {
-      frameId = event.data.frameId;
-      return;
+  if (isClient) {
+    // polyfill
+    if (!window.CustomEvent) {
+      (function() {
+        function CustomEvent(event, params) {
+          params = params || { bubbles: false, cancelable: false, detail: undefined };
+          var evt = document.createEvent('CustomEvent');
+          evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+          return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+
+        window.CustomEvent = CustomEvent;
+      })();
     }
-    if (event.data.hasOwnProperty('frameId')) {
-      delete event.data.frameId;
-    }
-    if (event.data.hasOwnProperty('connectVersion')) {
-      delete event.data.connectVersion;
-    }
-  }
 
-  if (subscribers.length > 0) {
-    subscribeHandler(event);
-  }
-
-  if (isWeb) {
-    if (event.data && event.data.data) {
-      response = { ...event.data };
-      promise = promises[response.data.request_id];
-    }
-  } else if (event.detail && event.detail.data) {
-    response = { ...event.detail };
-    promise = promises[response.data.request_id];
-  }
-
-  if (response.data && response.data.request_id) {
-    promise = promises[response.data.request_id];
-    if (promise) {
-      if (promise.customRequestId) {
-        delete response.data['request_id'];
-      }
-      if (response.data['error_type']) {
-        return promise.reject(response);
+    window.addEventListener(eventType, function() {
+      var args = Array.prototype.slice.call(arguments);
+      var _subscribers = subscribers.slice();
+      if (isWeb) {
+        if (Object.prototype.hasOwnProperty.call(args[0].data, 'webFrameId')) {
+          delete args[0].data.webFrameId;
+        }
+        if (Object.prototype.hasOwnProperty.call(args[0].data, 'connectVersion')) {
+          delete args[0].data.connectVersion;
+        }
+        if (args[0].data.type && args[0].data.type === 'VKWebAppSettings') {
+          webFrameId = args[0].data.frameId;
+        } else {
+          _subscribers.forEach(function(fn) {
+            fn({
+              detail: args[0].data
+            });
+          });
+        }
       } else {
-        return promise.resolve(response);
+        _subscribers.forEach(function(fn) {
+          fn.apply(null, args);
+        });
       }
-    }
+    });
   }
-});
 
-const subscribeHandler = (event) => {
-  const _subscribers = subscribers.slice();
-  const data = {};
-  if (isWeb) {
-    data.detail = { ...event.data };
-  } else if (event.detail && event.detail.data) {
-    data.detail = { ...event.detail };
-  }
-  _subscribers.forEach((fn) => {
-    fn(data);
-  });
-};
-
-export default (() => {
-  return {
+  var vkConnect = {
     /**
      * Sends a message to native client
      *
+     * @example
+     * message.send('VKWebAppInit');
      *
      * @param {String} handler Message type
      * @param {Object} params Message data
-     * @returns {Promise}
+     * @returns {void}
      */
-    send: (handler, params) => {
+    send: function send(handler, params) {
       if (!params) {
         params = {};
       }
-      const id = params['request_id'] ? params['request_id'] : `method#${methodCounter++}`;
-      let customRequestId = false;
-      if (!params.hasOwnProperty('request_id')) {
-        customRequestId = true;
-        params['request_id'] = id;
-      }
 
-      if (androidBridge && typeof androidBridge[handler] === FUNCTION) {
+      if (androidBridge && isFunction(androidBridge[handler])) {
         androidBridge[handler](JSON.stringify(params));
       }
-      if (iosBridge && iosBridge[handler] && typeof iosBridge[handler].postMessage === FUNCTION) {
+      if (iosBridge && iosBridge[handler] && isFunction(iosBridge[handler].postMessage)) {
         iosBridge[handler].postMessage(params);
       }
 
       if (isWeb) {
-        parent.postMessage({
-          handler,
-          params,
-          frameId,
-          type: 'vk-connect',
-        }, '*');
-      }
-
-      if (handler !== 'VKWebAppInit') {
-        return new Promise((resolve, reject) => {
-          promises[id] = {
-            resolve,
-            reject,
-            params,
-            customRequestId,
-          };
-        });
+        parent.postMessage(
+          {
+            handler: handler,
+            params: params,
+            type: 'vk-connect',
+            webFrameId: webFrameId,
+            connectVersion: connectVersion
+          },
+          '*'
+        );
       }
     },
-    supports: (handler) => {
-      if (androidBridge && typeof androidBridge[handler] === FUNCTION) return true;
-
-      if (iosBridge && iosBridge[handler] && typeof iosBridge[handler].postMessage === FUNCTION) return true;
-
-      if (~DESKTOP_EVENTS.indexOf(handler)) return true;
-
-      return false;
-    },
-    subscribe: (fn) => {
+    /**
+     * Subscribe on VKWebAppEvent
+     *
+     * @param {Function} fn Event handler
+     * @returns {void}
+     */
+    subscribe: function subscribe(fn) {
       subscribers.push(fn);
     },
+    /**
+     * Unsubscribe on VKWebAppEvent
+     *
+     * @param {Function} fn Event handler
+     * @returns {void}
+     */
+    unsubscribe: function unsubscribe(fn) {
+      var index = subscribers.indexOf(fn);
+
+      if (index > -1) {
+        subscribers.splice(index, 1);
+      }
+    },
+
+    /**
+     * Checks if it is client webview
+     *
+     * @returns {boolean}
+     */
+    isWebView: function isWebView() {
+      return !!(androidBridge || iosBridge);
+    },
+
+    /**
+     * Checks if native client supports nandler
+     *
+     * @param {String} handler Handler name
+     * @returns {boolean}
+     */
+    supports: function supports(handler) {
+      var desktopEvents = [
+        'VKWebAppInit',
+        'VKWebAppGetCommunityAuthToken',
+        'VKWebAppAddToCommunity',
+        'VKWebAppGetUserInfo',
+        'VKWebAppSetLocation',
+        'VKWebAppGetClientVersion',
+        'VKWebAppGetPhoneNumber',
+        'VKWebAppGetEmail',
+        'VKWebAppGetGeodata',
+        'VKWebAppSetTitle',
+        'VKWebAppGetAuthToken',
+        'VKWebAppCallAPIMethod',
+        'VKWebAppJoinGroup',
+        'VKWebAppAllowMessagesFromGroup',
+        'VKWebAppDenyNotifications',
+        'VKWebAppAllowNotifications',
+        'VKWebAppOpenPayForm',
+        'VKWebAppOpenApp',
+        'VKWebAppShare',
+        'VKWebAppShowWallPostBox',
+        'VKWebAppScroll',
+        'VKWebAppResizeWindow',
+        'VKWebAppShowOrderBox',
+        'VKWebAppShowLeaderBoardBox',
+        'VKWebAppShowInviteBox',
+        'VKWebAppShowRequestBox',
+        'VKWebAppAddToFavorites'
+      ];
+
+      if (androidBridge && isFunction(androidBridge[handler])) return true;
+      if (iosBridge && iosBridge[handler] && isFunction(iosBridge[handler].postMessage)) return true;
+      if (!iosBridge && !androidBridge && ~desktopEvents.indexOf(handler)) return true;
+
+      return false;
+    }
   };
+
+  if (typeof exports === 'object' && typeof module !== 'undefined') {
+    module.exports = vkConnect;
+  } else {
+    var root;
+    if (typeof window !== 'undefined') {
+      root = window;
+    } else if (typeof global !== 'undefined') {
+      root = global;
+    } else if (typeof self !== 'undefined') {
+      root = self;
+    } else {
+      root = this;
+    }
+
+    root.vkConnect = vkConnect;
+
+    // Backward compatibility
+    root.vkuiConnect = vkConnect;
+  }
 })();
