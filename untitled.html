@@ -54,6 +54,7 @@
     <br>
   <a href="https://vk.com/igrach_feed">https://vk.com/igrach_feed</a>  
   <div class="controls">
+    <button onclick="GetScreenSize()">GetScreenSize</button>
     <button onclick="VKWebAppAddToFavorites()">VKWebAppAddToFavorites</button>
     <button onclick="VKWebAppAllowMessagesFromGroup()">VKWebAppAllowMessagesFromGroup</button>
     <button onclick="VKWebAppAllowNotifications()">VKWebAppAllowNotifications</button>
@@ -172,6 +173,14 @@
     function VKWebAppResizeWindow() {
      document.getElementById('event').value = "VKWebAppResizeWindow";
      document.getElementById('params').value = '{"width": 800, "height": 1000}'
+    };
+      
+    function GetScreenSize() {
+     var s = 'document.documentElement.clientWidth = ' + document.documentElement.clientWidth + '\n';
+     s = s + 'window.innerWidth = ' + window.innerWidth + '\n';
+     s = s + 'document.documentElement.clientHeight = ' + document.documentElement.clientHeight + '\n';
+     s = s + 'window.innerHeight = ' + window.innerHeight + '\n';
+     document.getElementById('params').value = s;
     };
   </script>
   
