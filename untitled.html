@@ -80,9 +80,9 @@
     
   </div>
   <script>
-    vkuiConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e["detail"]); console.log(e)});
+    vkConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e["detail"]); console.log(e)});
      // vkuiConnect.subscribe((e) => console.log(e));    
-    vkuiConnect.send("VKWebAppInit", {});
+    vkConnect.send("VKWebAppInit", {});
     
     
     function sendEvent() {
