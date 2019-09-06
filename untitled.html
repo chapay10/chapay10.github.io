@@ -82,7 +82,7 @@
   <script>
     vkConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e["detail"]); console.log(e)});
      // vkuiConnect.subscribe((e) => console.log(e));    
-    vkConnect.send("VKWebAppInit", {});
+    vkConnect.send('VKWebAppInit');
     
     
     function sendEvent() {
