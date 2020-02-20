@@ -7,14 +7,7 @@
 
     
 <script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
-<script type="text/javascript"> 
-  VK.init(function() { 
-     log.console("qweqwe")
-  }, function() { 
-     // API initialization failed 
-     // Can reload page here 
-}, '5.103'); 
-</script>
+
     
         <style>
         body {
@@ -88,9 +81,12 @@
     
   </div>
   <script>
-    vkConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e["detail"]); console.log(e)});
-     // vkuiConnect.subscribe((e) => console.log(e));    
-    vkConnect.send('VKWebAppInit');
+    VK.init(function() { 
+     log.console("qweqwe")
+  }, function() { 
+     // API initialization failed 
+     // Can reload page here 
+}, '5.103'); 
     
     
     function sendEvent() {
