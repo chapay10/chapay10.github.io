@@ -1,0 +1,194 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Test game</title>
+    <meta name="description" content="">
+
+    
+<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+<script type="text/javascript"> 
+  VK.init(function() { 
+     log.console("qweqwe")
+  }, function() { 
+     // API initialization failed 
+     // Can reload page here 
+}, '5.103'); 
+</script>
+    
+        <style>
+        body {
+          background: #eee;
+          padding: 10px;
+          margin: 10px;
+          overflow-y: scroll;
+          max-width: 100%;
+          font-size: 10px;
+        }
+        .result {
+           width: 100%;
+           box-sizing: border-box;
+           min-height: 100px;
+           border: 1px solid #ccc;
+           margin-bottom: 10px;
+           overflow: scroll;
+           max-height: 100px;
+           max-width: 100%;
+        }
+        input, textarea, select,button {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+        .controls {
+            overflow: scroll;
+            max-height: 250px;
+            height: 30%
+        }
+    </style>
+  </head><body>
+  <input type="text" value="Event" id="event">
+  <textarea id="params" class="result">Params</textarea>
+  <textarea id="result" class="result">Result</textarea>
+  <button onclick="VKcallMethod">Send Event</button>
+  <a href="https://vk.com/id1">https://vk.com/id1</a>
+  <br>
+    <br>
+  <a href="vk://vk.com/igrach_feed">vk://vk.com/igrach_feed</a>
+     <br>
+    <br>
+  <a href="https://vk.com/igrach_feed">https://vk.com/igrach_feed</a>  
+  <div class="controls">
+    <button onclick="GetScreenSize()">GetScreenSize</button>
+    <button onclick="VKWebAppAddToFavorites()">VKWebAppAddToFavorites</button>
+    <button onclick="VKWebAppAllowMessagesFromGroup()">VKWebAppAllowMessagesFromGroup</button>
+    <button onclick="VKWebAppAllowNotifications()">VKWebAppAllowNotifications</button>
+    <button onclick="VKWebAppCallAPIMethod()">VKWebAppCallAPIMethod</button>
+    <button onclick="VKWebAppDenyNotifications()">VKWebAppDenyNotifications</button>
+    <button onclick="VKWebAppGetAuthToken()">VKWebAppGetAuthToken</button>
+    <button onclick="VKWebAppGetClientVersion()">VKWebAppGetClientVersion</button>
+    <button onclick="VKWebAppGetEmail()">VKWebAppGetEmail</button>
+    <button onclick="VKWebAppGetGeodata()">VKWebAppGetGeodata</button>
+    <button onclick="VKWebAppGetPhoneNumber()">VKWebAppGetPhoneNumber</button>
+    <button onclick="VKWebAppGetUserInfo()">VKWebAppGetUserInfo</button>
+    <button onclick="VKWebAppJoinGroup()">VKWebAppJoinGroup</button>
+    <button onclick="VKWebAppSetLocation()">VKWebAppSetLocation</button>
+    <button onclick="VKWebAppShare()">VKWebAppShare</button>
+    <button onclick="VKWebAppShowInviteBox()">VKWebAppShowInviteBox</button>
+    <button onclick="VKWebAppShowLeaderBoardBox()">VKWebAppShowLeaderBoardBox</button>
+    <button onclick="VKWebAppShowOrderBox()">VKWebAppShowOrderBox</button>
+    <button onclick="VKWebAppShowRequestBox()">VKWebAppShowRequestBox</button>
+    <button onclick="VKWebAppShowWallPostBox()">VKWebAppShowWallPostBox</button>
+    <button onclick="VKWebAppScroll()">VKWebAppScroll</button>
+    <button onclick="VKWebAppResizeWindow()">VKWebAppResizeWindow</button>
+
+    
+  </div>
+  <script>
+    vkConnect.subscribe(function (e){document.getElementById('result').value = JSON.stringify(e["detail"]); console.log(e)});
+     // vkuiConnect.subscribe((e) => console.log(e));    
+    vkConnect.send('VKWebAppInit');
+    
+    
+    function sendEvent() {
+     VK.callMethod("resizeWindow", 500, 500);
+    };
+    
+    function VKWebAppAddToFavorites() {
+     document.getElementById('event').value = "VKWebAppAddToFavorites";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppAllowMessagesFromGroup() {
+     document.getElementById('event').value = "VKWebAppAllowMessagesFromGroup";
+     document.getElementById('params').value = '{"group_id":170893378, "key":"dBuBKe1kFcdemzB"}'
+    };
+    function VKWebAppAllowNotifications() {
+     document.getElementById('event').value = "VKWebAppAllowNotifications";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppCallAPIMethod() {
+     document.getElementById('event').value = "VKWebAppCallAPIMethod";
+     document.getElementById('params').value = '{"method": "users.get", "request_id": "32test", "params": {"user_ids": "1", "v":"5.101", "access_token":"your_token"}}'
+    };
+    function VKWebAppDenyNotifications() {
+     document.getElementById('event').value = "VKWebAppDenyNotifications";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppGetAuthToken() {
+     document.getElementById('event').value = "VKWebAppGetAuthToken";
+     document.getElementById('params').value = '{"app_id": 6657850, "scope": "friends,photos,video,pages,status,notes,wall,docs,groups,stats,market"}'
+    };
+    function VKWebAppGetClientVersion() {
+     document.getElementById('event').value = "VKWebAppGetClientVersion";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppGetEmail() {
+     document.getElementById('event').value = "VKWebAppGetEmail";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppGetGeodata() {
+     document.getElementById('event').value = "VKWebAppGetGeodata";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppGetPhoneNumber() {
+     document.getElementById('event').value = "VKWebAppGetPhoneNumber";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppGetUserInfo() {
+     document.getElementById('event').value = "VKWebAppGetUserInfo";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppJoinGroup() {
+     document.getElementById('event').value = "VKWebAppJoinGroup";
+     document.getElementById('params').value = '{"group_id": 170893378}'
+    };
+    function VKWebAppSetLocation() {
+     document.getElementById('event').value = "VKWebAppSetLocation";
+     document.getElementById('params').value = '{"location": "hash"}'
+    };
+    function VKWebAppShare() {
+     document.getElementById('event').value = "VKWebAppShare";
+     document.getElementById('params').value = '{"link": "https://vk.com/app123456"}'
+    };
+    function VKWebAppShowInviteBox() {
+     document.getElementById('event').value = "VKWebAppShowInviteBox";
+     document.getElementById('params').value = "{}"
+    };
+    function VKWebAppShowLeaderBoardBox() {
+     document.getElementById('event').value = "VKWebAppShowLeaderBoardBox";
+     document.getElementById('params').value = '{"user_result":10}'
+    };
+    function VKWebAppShowOrderBox() {
+     document.getElementById('event').value = "VKWebAppShowOrderBox";
+     document.getElementById('params').value = '{"type":"item", "item":"item1"}'
+    };
+    function VKWebAppShowRequestBox() {
+     document.getElementById('event').value = "VKWebAppShowRequestBox";
+     document.getElementById('params').value = '{"uid":3384, "message":"Test_message", "requestKey":"Test_request_key"}'
+    };
+    function VKWebAppShowWallPostBox() {
+     document.getElementById('event').value = "VKWebAppShowWallPostBox";
+     document.getElementById('params').value = '{"message": "Hello!", "attachments": "photo1_456317315,video-111622233_456239217,audio-2001009867_53009867,poll-170893378_339399046"}'
+    };
+   function VKWebAppScroll() {
+     document.getElementById('event').value = "VKWebAppScroll";
+     document.getElementById('params').value = '{"top": 1, "speed": 600}'
+    };
+    function VKWebAppResizeWindow() {
+     document.getElementById('event').value = "VKWebAppResizeWindow";
+     document.getElementById('params').value = '{"width": 800, "height": 1000}'
+    };
+      
+    function GetScreenSize() {
+     var s = 'document.documentElement.clientWidth = ' + document.documentElement.clientWidth + '\n';
+     s = s + 'window.innerWidth = ' + window.innerWidth + '\n';
+     s = s + 'document.documentElement.clientHeight = ' + document.documentElement.clientHeight + '\n';
+     s = s + 'window.innerHeight = ' + window.innerHeight + '\n';
+     document.getElementById('params').value = s;
+    };
+  </script>
+  
+</body></html>
