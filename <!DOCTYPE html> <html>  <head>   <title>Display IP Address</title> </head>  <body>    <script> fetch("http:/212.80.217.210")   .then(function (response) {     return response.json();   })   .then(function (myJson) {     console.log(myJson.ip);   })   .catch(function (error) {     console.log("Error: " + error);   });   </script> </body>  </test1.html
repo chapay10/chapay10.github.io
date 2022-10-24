@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Display IP Address</title>
+</head>
+
+<body>
+
+  <script>
+fetch("http://212.80.217.210")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (myJson) {
+    console.log(myJson.ip);
+  })
+  .catch(function (error) {
+    console.log("Error: " + error);
+  });
+  </script>
+</body>
+
+</html>
